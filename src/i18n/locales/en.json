@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "home": "Home",
+    "clients": "For Clients",
+    "pros": "For Professionals",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "download": "Download the app"
+  },
+  "cta": {
+    "appStore": "Download on the App Store",
+    "playStore": "Get it on Google Play",
+    "comingSoon": "Coming soon",
+    "discover": "Learn more",
+    "joinPros": "Become a Glamro professional"
+  },
+  "home": {
+    "tagline": "Beauty Delivery, just one tap away",
+    "subtitle": "The world of beauty & wellness is changing. Book the best professionals, wherever you are.",
+    "marquee": "Barbers · Estheticians · Nail Artists · Make-up Artists · Hairstylists · Massage Therapists · Lash Artists",
+    "whySection": {
+      "kicker": "Why Glamro",
+      "title": "Building the future of beauty appointments",
+      "items": [
+        { "title": "A new standard", "desc": "Booking beauty and wellness services becomes instant — like ordering a ride or a delivery." },
+        { "title": "An ecosystem, not just bookings", "desc": "Glamro connects professionals, clients and services in one digital experience." },
+        { "title": "Your salon, always with you", "desc": "At home, at the hotel, at the office. Beauty is no longer tied to a place." },
+        { "title": "Certified professionals", "desc": "Digital payments, quality, safety, traceability and trust at the center." }
+      ]
+    },
+    "vision": {
+      "kicker": "Our vision",
+      "title": "Glamro will revolutionize the way you take care of yourself.",
+      "body": "No more waits, calls or stress. Discover and book the best beauty and wellness services straight to your door, in seconds. Almost every industry has gone digital. Beauty has been still too long. Glamro is here to change the rules of the game."
+    },
+    "roadmap": {
+      "kicker": "Roadmap",
+      "title": "What's coming in 2026",
+      "items": [
+        { "date": "April 1, 2026", "title": "Private Beta Launch", "desc": "Early access for the first members of the community." },
+        { "date": "May 1, 2026", "title": "Official Launch", "desc": "App available on App Store and Google Play across Italy." },
+        { "date": "September 2026", "title": "Glamro E-commerce", "desc": "Merchandising, professional beauty products and platform optimization." }
+      ]
+    },
+    "finalCta": {
+      "title": "Your beauty, finally, just one tap away.",
+      "subtitle": "Download Glamro and join the beauty delivery revolution."
+    }
+  },
+  "clients": {
+    "kicker": "For Clients",
+    "title": "Your salon, wherever and whenever",
+    "subtitle": "Find the right professional, book in seconds and get the service right at home, at the office or at your hotel.",
+    "features": [
+      { "title": "Book in 30 seconds", "desc": "Filter by service, zone, price and availability. Confirm in one tap." },
+      { "title": "Verified professionals", "desc": "Every professional is certified and reviewed by the community." },
+      { "title": "At your place, always", "desc": "The professional comes to you. No traffic, no waiting." },
+      { "title": "Digital payment", "desc": "Pay in-app safely. No cash, no worries." },
+      { "title": "Transparent reviews", "desc": "Choose with confidence thanks to real ratings from other clients." },
+      { "title": "Dedicated support", "desc": "Our team is always there for you, for any need." }
+    ]
+  },
+  "pros": {
+    "kicker": "For Professionals",
+    "title": "Grow your business with Glamro",
+    "subtitle": "Become part of a growing community. Receive bookings, manage your agenda and expand your client base.",
+    "features": [
+      { "title": "More clients, less hassle", "desc": "Leave promotion to us. You focus on what you love." },
+      { "title": "Smart agenda", "desc": "Manage appointments, availability and travel from one app." },
+      { "title": "Automatic payments", "desc": "Receive payments directly to your account. No bad debts." },
+      { "title": "Professional profile", "desc": "Showcase your work with photos, services and custom prices." },
+      { "title": "Guaranteed growth", "desc": "Reviews, analytics and tools to improve every day." },
+      { "title": "Dedicated support", "desc": "A team dedicated to professionals, always by your side." }
+    ],
+    "ctaTitle": "Ready to join the revolution?",
+    "ctaSubtitle": "Sign up in the Glamro app and complete your professional profile in minutes."
+  },
+  "about": {
+    "kicker": "About",
+    "title": "We're rewriting the rules of beauty.",
+    "lead": "Glamro was born from the idea that beauty should not be an appointment, but an experience. A fluid, immediate, accessible experience.",
+    "mission": {
+      "title": "Our mission",
+      "body": "To bring the beauty & wellness world into the future, building the digital infrastructure that connects millions of clients with the best professionals in Italy."
+    },
+    "values": {
+      "title": "Our values",
+      "items": [
+        { "title": "Quality", "desc": "Only certified, carefully selected professionals." },
+        { "title": "Simplicity", "desc": "An experience designed to be immediate, in every detail." },
+        { "title": "Trust", "desc": "Safe payments, real reviews, human support." },
+        { "title": "Innovation", "desc": "Technology serving people, never the opposite." }
+      ]
+    }
+  },
+  "faq": {
+    "kicker": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "What is Glamro?", "a": "Glamro is the first Italian beauty delivery app: it connects clients and beauty & wellness professionals for at-home or in-salon services, in just a few taps." },
+      { "q": "When will the app be available?", "a": "The private beta starts April 1, 2026, while the official launch on App Store and Google Play is scheduled for May 1, 2026." },
+      { "q": "In which cities will it be available?", "a": "We'll start from the main Italian cities and progressively expand across the entire country." },
+      { "q": "What services can I book?", "a": "Haircuts and beard, manicure and pedicure, face and body treatments, make-up, hairstyling, massages and much more." },
+      { "q": "How are professionals selected?", "a": "Each professional is manually verified by our team: documents, certifications and portfolio. Only the best join Glamro." },
+      { "q": "I'm a professional, how can I join?", "a": "Download the app as soon as it's available and complete the professional registration. In the meantime, contact us for early information." },
+      { "q": "How do payments work?", "a": "All payments happen in-app, securely and tracked. No cash, no worries." }
+    ]
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk.",
+    "subtitle": "Have a question, an idea or want to collaborate with us? Write to us, we'll reply within 24 hours.",
+    "email": "Email",
+    "press": "Press & Media",
+    "partnerships": "Partnerships",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send message",
+      "success": "Message sent! We'll reply soon."
+    }
+  },
+  "footer": {
+    "tagline": "Beauty delivery, just one tap away.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "rights": "All rights reserved.",
+    "follow": "Follow us"
+  }
+}
