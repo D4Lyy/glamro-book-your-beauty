@@ -133,5 +133,8 @@
     "cookies": "Cookie Policy",
     "rights": "All rights reserved.",
     "follow": "Follow us"
+  },
+  "legal": {
+    "kicker": "Legal"
   }
 }
