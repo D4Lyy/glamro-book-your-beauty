@@ -40,9 +40,9 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-xs uppercase tracking-widest text-muted-foreground">{t("footer.legal")}</h4>
             <ul className="space-y-2.5 text-sm">
-              <li><a href="#" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.privacy")}</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.terms")}</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.cookies")}</a></li>
+              <li><Link to="/privacy" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.privacy")}</Link></li>
+              <li><Link to="/terms" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.terms")}</Link></li>
+              <li><Link to="/cookie-policy" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.cookies")}</Link></li>
             </ul>
           </div>
         </div>
