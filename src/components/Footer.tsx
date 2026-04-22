@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { Instagram, Linkedin } from "lucide-react";
+import { Instagram, Linkedin, Facebook, Youtube } from "lucide-react";
+import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 import { Logo } from "./Logo";
 import { AppStoreButtons } from "./AppStoreButtons";
 
@@ -51,10 +52,22 @@ export const Footer = () => {
           <p className="text-xs text-muted-foreground">
             © {year} Glamro. {t("footer.rights")}
           </p>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3 flex-wrap">
             <span className="text-xs text-muted-foreground mr-1">{t("footer.follow")}</span>
             <a href="#" aria-label="Instagram" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
               <Instagram className="h-4 w-4" />
+            </a>
+            <a href="#" aria-label="Facebook" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+              <Facebook className="h-4 w-4" />
+            </a>
+            <a href="#" aria-label="X" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+              <FaXTwitter className="h-4 w-4" />
+            </a>
+            <a href="#" aria-label="TikTok" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+              <FaTiktok className="h-4 w-4" />
+            </a>
+            <a href="#" aria-label="YouTube" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+              <Youtube className="h-4 w-4" />
             </a>
             <a href="#" aria-label="LinkedIn" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
               <Linkedin className="h-4 w-4" />
