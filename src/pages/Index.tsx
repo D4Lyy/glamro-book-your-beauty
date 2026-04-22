@@ -26,7 +26,7 @@ const Index = () => {
             className="flex justify-center mb-10"
           >
             <div className="text-foreground">
-              <Logo showWordmark={false} className="[&>img]:h-32 [&>img]:w-32 md:[&>img]:h-44 md:[&>img]:w-44 lg:[&>img]:h-56 lg:[&>img]:w-56" />
+              <Logo showWordmark={false} className="[&>img]:!h-32 [&>img]:!w-32 md:[&>img]:!h-44 md:[&>img]:!w-44 lg:[&>img]:!h-56 lg:[&>img]:!w-56" />
             </div>
           </motion.div>
 
