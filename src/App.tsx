@@ -13,6 +13,7 @@ import NotFound from "./pages/NotFound.tsx";
 import Privacy from "./pages/legal/Privacy.tsx";
 import CookiePolicy from "./pages/legal/CookiePolicy.tsx";
 import Terms from "./pages/legal/Terms.tsx";
+import LegalNotice from "./pages/legal/LegalNotice.tsx";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/cookie-policy" element={<CookiePolicy />} />
             <Route path="/terms" element={<Terms />} />
+            <Route path="/note-legali" element={<LegalNotice />} />
           </Route>
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
