@@ -12,6 +12,8 @@
     "appStore": "Scarica su App Store",
     "playStore": "Disponibile su Google Play",
     "comingSoon": "In arrivo",
+    "clientApp": "App Cliente",
+    "proApp": "App Pro",
     "discover": "Scopri di più",
     "joinPros": "Diventa uno dei primi GlamPro",
     "downloadApp": "Scarica l'app",
@@ -194,10 +196,22 @@
     "privacy": "Privacy Policy",
     "terms": "Termini di Servizio",
     "cookies": "Cookie Policy",
+    "legalNotice": "Note Legali",
     "rights": "Tutti i diritti riservati.",
     "follow": "Seguici"
   },
   "legal": {
     "kicker": "Legale"
+  },
+  "legalNotice": {
+    "title": "Note Legali",
+    "companyHeading": "Dati societari",
+    "contactsHeading": "Contatti",
+    "address": "Sede legale",
+    "vat": "P. IVA / C.F.",
+    "rea": "Iscrizione REA",
+    "capital": "Capitale sociale",
+    "phone": "Telefono",
+    "website": "Sito web"
   }
 }

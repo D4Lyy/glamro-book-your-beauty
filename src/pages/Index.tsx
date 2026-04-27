@@ -24,24 +24,11 @@ const Index = () => {
       <section className="relative overflow-hidden gradient-hero">
         <div className="absolute inset-0 bg-grain opacity-60 pointer-events-none" />
         <div className="container mx-auto relative z-10 py-20 md:py-28 lg:py-32">
-          {/* Announce banner */}
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="flex justify-center mb-10"
-          >
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card/60 backdrop-blur text-xs md:text-sm text-muted-foreground">
-              <span className="h-1.5 w-1.5 rounded-full bg-foreground animate-pulse" />
-              {t("home.announce")}
-            </span>
-          </motion.div>
-
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-            className="flex justify-center mb-10"
+            className="flex justify-center mb-10 mt-4"
           >
             <div className="text-foreground">
               <Logo showWordmark={false} className="[&>img]:!h-32 [&>img]:!w-32 md:[&>img]:!h-44 md:[&>img]:!w-44 lg:[&>img]:!h-56 lg:[&>img]:!w-56" />
@@ -66,33 +53,19 @@ const Index = () => {
             {t("home.subtitle")}
           </motion.p>
 
-          {/* Dual CTA */}
+          {/* App download CTAs */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
             className="mt-12 flex flex-col items-center gap-5"
           >
-            <div className="flex flex-wrap items-center justify-center gap-3">
-              <a
-                href="#"
-                className="inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-foreground text-background font-medium hover:bg-foreground/90 transition-colors"
-              >
-                {t("cta.downloadApp")}
-              </a>
-              <a
-                href="#"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl border border-foreground/30 text-foreground hover:bg-foreground/5 transition-colors font-medium"
-              >
-                {t("cta.workWithUs")}
-                <ArrowRight className="h-4 w-4" />
-              </a>
-            </div>
+            <AppStoreButtons kind="client" />
             <Link
-              to="/clienti"
+              to="/professionisti"
               className="group inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
-              {t("cta.discover")}
+              {t("cta.workWithUs")}
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </motion.div>

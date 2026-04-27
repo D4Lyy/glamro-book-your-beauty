@@ -12,6 +12,8 @@
     "appStore": "Download on the App Store",
     "playStore": "Get it on Google Play",
     "comingSoon": "Coming soon",
+    "clientApp": "Client app",
+    "proApp": "Pro app",
     "discover": "Learn more",
     "joinPros": "Become one of the first GlamPros",
     "downloadApp": "Download the app",
@@ -194,10 +196,22 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "cookies": "Cookie Policy",
+    "legalNotice": "Legal Notice",
     "rights": "All rights reserved.",
     "follow": "Follow us"
   },
   "legal": {
     "kicker": "Legal"
+  },
+  "legalNotice": {
+    "title": "Legal Notice",
+    "companyHeading": "Company details",
+    "contactsHeading": "Contacts",
+    "address": "Registered office",
+    "vat": "VAT / Tax code",
+    "rea": "REA registration",
+    "capital": "Share capital",
+    "phone": "Phone",
+    "website": "Website"
   }
 }

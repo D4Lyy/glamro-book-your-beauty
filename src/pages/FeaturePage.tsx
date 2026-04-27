@@ -17,14 +17,15 @@ interface Props {
   ecosystem?: string;
   ctaTitle?: string;
   ctaSubtitle?: string;
+  appKind?: "client" | "pro";
 }
 
-const FeaturePage = ({ kicker, title, subtitle, features, onboarding, ecosystem, ctaTitle, ctaSubtitle }: Props) => (
+const FeaturePage = ({ kicker, title, subtitle, features, onboarding, ecosystem, ctaTitle, ctaSubtitle, appKind = "client" }: Props) => (
   <>
     <section className="container mx-auto py-20 md:py-32">
       <SectionHeading kicker={kicker} title={title} subtitle={subtitle} />
       <div className="mt-8">
-        <AppStoreButtons />
+        <AppStoreButtons kind={appKind} />
       </div>
     </section>
 
@@ -95,7 +96,7 @@ const FeaturePage = ({ kicker, title, subtitle, features, onboarding, ecosystem,
           <h2 className="font-display text-4xl md:text-5xl font-bold text-balance">{ctaTitle}</h2>
           {ctaSubtitle && <p className="mt-5 text-lg text-muted-foreground text-balance">{ctaSubtitle}</p>}
           <div className="mt-10 flex justify-center">
-            <AppStoreButtons />
+            <AppStoreButtons kind={appKind} />
           </div>
         </div>
       </section>
@@ -125,6 +126,7 @@ export const ProsPage = () => {
       title={t("pros.title")}
       subtitle={t("pros.subtitle")}
       features={t("pros.features", { returnObjects: true }) as Array<{ title: string; desc: string }>}
+      appKind="pro"
       onboarding={{
         kicker: t("pros.onboarding.kicker"),
         title: t("pros.onboarding.title"),
