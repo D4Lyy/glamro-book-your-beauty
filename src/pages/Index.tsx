@@ -1,6 +1,7 @@
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { ShieldCheck, CreditCard, Zap, MapPin, Scissors, Sparkles, Brush, Heart, User } from "lucide-react";
+import { ArrowRight, ShieldCheck, CreditCard, Zap, MapPin, Scissors, Sparkles, Brush, Heart, User } from "lucide-react";
 import { AppStoreButtons } from "@/components/AppStoreButtons";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Logo } from "@/components/Logo";
@@ -57,9 +58,16 @@ const Index = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-12 flex justify-center"
+            className="mt-12 flex flex-col items-center gap-5"
           >
             <AppStoreButtons kind="client" />
+            <Link
+              to="/professionisti"
+              className="group inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              {t("cta.workWithUs")}
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </Link>
           </motion.div>
 
           {/* TRUST BAR */}
