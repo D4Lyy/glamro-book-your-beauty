@@ -1,16 +1,21 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { ArrowRight, Sparkles, Calendar, MapPin, ShieldCheck } from "lucide-react";
+import { ArrowRight, ShieldCheck, CreditCard, Zap, MapPin, Scissors, Sparkles, Brush, Heart, User } from "lucide-react";
 import { AppStoreButtons } from "@/components/AppStoreButtons";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Logo } from "@/components/Logo";
 
-const icons = [Sparkles, MapPin, Calendar, ShieldCheck];
+const trustIcons = [ShieldCheck, CreditCard, Zap, MapPin];
+const whyIcons = [Sparkles, Zap, ShieldCheck, MapPin];
+const serviceIcons = [Scissors, User, Heart, Brush, Sparkles];
 
 const Index = () => {
   const { t } = useTranslation();
-  const items = t("home.whySection.items", { returnObjects: true }) as Array<{ title: string; desc: string }>;
+  const why = t("home.whySection.items", { returnObjects: true }) as Array<{ title: string; desc: string }>;
+  const trust = t("home.trust.items", { returnObjects: true }) as Array<{ title: string; desc: string }>;
+  const steps = t("home.how.steps", { returnObjects: true }) as Array<{ title: string; desc: string }>;
+  const services = t("home.services.items", { returnObjects: true }) as Array<{ name: string; desc: string }>;
   const roadmap = t("home.roadmap.items", { returnObjects: true }) as Array<{ date: string; title: string; desc: string }>;
 
   return (
@@ -18,7 +23,20 @@ const Index = () => {
       {/* HERO */}
       <section className="relative overflow-hidden gradient-hero">
         <div className="absolute inset-0 bg-grain opacity-60 pointer-events-none" />
-        <div className="container mx-auto relative z-10 py-20 md:py-32 lg:py-40">
+        <div className="container mx-auto relative z-10 py-20 md:py-28 lg:py-32">
+          {/* Announce banner */}
+          <motion.div
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="flex justify-center mb-10"
+          >
+            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card/60 backdrop-blur text-xs md:text-sm text-muted-foreground">
+              <span className="h-1.5 w-1.5 rounded-full bg-foreground animate-pulse" />
+              {t("home.announce")}
+            </span>
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -48,20 +66,55 @@ const Index = () => {
             {t("home.subtitle")}
           </motion.p>
 
+          {/* Dual CTA */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="mt-12 flex flex-col items-center gap-4"
+            className="mt-12 flex flex-col items-center gap-5"
           >
-            <AppStoreButtons className="justify-center" />
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              <a
+                href="#"
+                className="inline-flex items-center justify-center px-6 py-3.5 rounded-xl bg-foreground text-background font-medium hover:bg-foreground/90 transition-colors"
+              >
+                {t("cta.downloadApp")}
+              </a>
+              <a
+                href="#"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl border border-foreground/30 text-foreground hover:bg-foreground/5 transition-colors font-medium"
+              >
+                {t("cta.workWithUs")}
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            </div>
             <Link
               to="/clienti"
-              className="group inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mt-2"
+              className="group inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               {t("cta.discover")}
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
+          </motion.div>
+
+          {/* TRUST BAR */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.1 }}
+            className="mt-20 grid gap-px bg-border rounded-2xl overflow-hidden grid-cols-2 md:grid-cols-4 max-w-5xl mx-auto"
+          >
+            {trust.map((item, i) => {
+              const Icon = trustIcons[i];
+              return (
+                <div key={i} className="bg-background/80 backdrop-blur p-5 md:p-6">
+                  <Icon className="h-5 w-5 mb-3 text-foreground" strokeWidth={1.5} />
+                  <p className="font-display text-sm md:text-base font-semibold leading-tight">{item.title}</p>
+                  <p className="text-xs text-muted-foreground mt-1.5 leading-snug">{item.desc}</p>
+                </div>
+              );
+            })}
           </motion.div>
         </div>
 
@@ -82,15 +135,69 @@ const Index = () => {
         </div>
       </section>
 
-      {/* WHY */}
+      {/* HOW IT WORKS */}
       <section className="container mx-auto py-24 md:py-32">
+        <SectionHeading
+          kicker={t("home.how.kicker")}
+          title={t("home.how.title")}
+          align="center"
+        />
+        <div className="mt-16 grid gap-6 md:grid-cols-3 max-w-5xl mx-auto">
+          {steps.map((s, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.6, delay: i * 0.1 }}
+              className="relative p-8 rounded-2xl border border-border bg-card"
+            >
+              <span className="font-display text-6xl text-muted-foreground/30 font-bold">
+                0{i + 1}
+              </span>
+              <h3 className="font-display text-2xl font-semibold mt-3">{s.title}</h3>
+              <p className="text-muted-foreground mt-2 leading-relaxed">{s.desc}</p>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* SERVICES */}
+      <section className="container mx-auto py-24 md:py-32 border-t border-border">
+        <SectionHeading
+          kicker={t("home.services.kicker")}
+          title={t("home.services.title")}
+        />
+        <div className="mt-16 grid gap-px bg-border rounded-2xl overflow-hidden grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+          {services.map((s, i) => {
+            const Icon = serviceIcons[i % serviceIcons.length];
+            return (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-60px" }}
+                transition={{ duration: 0.5, delay: i * 0.06 }}
+                className="bg-background p-8 hover:bg-card transition-colors duration-500"
+              >
+                <Icon className="h-7 w-7 mb-5 text-foreground" strokeWidth={1.5} />
+                <h3 className="font-display text-xl font-semibold">{s.name}</h3>
+                <p className="text-muted-foreground text-sm mt-2 leading-relaxed">{s.desc}</p>
+              </motion.div>
+            );
+          })}
+        </div>
+      </section>
+
+      {/* WHY */}
+      <section className="container mx-auto py-24 md:py-32 border-t border-border">
         <SectionHeading
           kicker={t("home.whySection.kicker")}
           title={t("home.whySection.title")}
         />
         <div className="mt-16 grid gap-px bg-border rounded-2xl overflow-hidden md:grid-cols-2">
-          {items.map((item, i) => {
-            const Icon = icons[i % icons.length];
+          {why.map((item, i) => {
+            const Icon = whyIcons[i % whyIcons.length];
             return (
               <motion.div
                 key={i}
