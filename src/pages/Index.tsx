@@ -1,19 +1,17 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
-import { ArrowRight, ShieldCheck, CreditCard, Zap, MapPin, Scissors, Sparkles, Brush, Heart, User } from "lucide-react";
+import { ArrowRight, ShieldCheck, Zap, MapPin, Scissors, Sparkles, Brush, Heart, User } from "lucide-react";
 import { AppStoreButtons } from "@/components/AppStoreButtons";
 import { SectionHeading } from "@/components/SectionHeading";
 import { Logo } from "@/components/Logo";
 
-const trustIcons = [ShieldCheck, CreditCard, Zap, MapPin];
 const whyIcons = [Sparkles, Zap, ShieldCheck, MapPin];
 const serviceIcons = [Scissors, User, Heart, Brush, Sparkles];
 
 const Index = () => {
   const { t } = useTranslation();
   const why = t("home.whySection.items", { returnObjects: true }) as Array<{ title: string; desc: string }>;
-  const trust = t("home.trust.items", { returnObjects: true }) as Array<{ title: string; desc: string }>;
   const steps = t("home.how.steps", { returnObjects: true }) as Array<{ title: string; desc: string }>;
   const services = t("home.services.items", { returnObjects: true }) as Array<{ name: string; desc: string }>;
   const roadmap = t("home.roadmap.items", { returnObjects: true }) as Array<{ date: string; title: string; desc: string }>;
