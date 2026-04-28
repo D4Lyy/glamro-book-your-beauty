@@ -55,22 +55,22 @@ export const Footer = () => {
           </p>
           <div className="flex items-center gap-3 flex-wrap">
             <span className="text-xs text-muted-foreground mr-1">{t("footer.follow")}</span>
-            <a href="#" aria-label="Instagram" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+            <a target="_blank" href="https://www.instagram.com/glamro.it?igsh=NTJibjFqYTUxbmdp" aria-label="Instagram" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
               <Instagram className="h-4 w-4" />
             </a>
-            <a href="#" aria-label="Facebook" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+            <a target="_blank" href="https://www.facebook.com/share/1QLxCgsazL/?mibextid=wwXIfr" aria-label="Facebook" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
               <Facebook className="h-4 w-4" />
             </a>
-            <a href="#" aria-label="X" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+            <a target="_blank" href="#" aria-label="X" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors hidden">
               <FaXTwitter className="h-4 w-4" />
             </a>
-            <a href="#" aria-label="TikTok" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+            <a target="_blank" href="https://www.tiktok.com/@glamro.it?_r=1&_t=ZN-95t1irihEAg" aria-label="TikTok" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
               <FaTiktok className="h-4 w-4" />
             </a>
-            <a href="#" aria-label="YouTube" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+            <a target="_blank" href="#" aria-label="YouTube" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors hidden">
               <Youtube className="h-4 w-4" />
             </a>
-            <a href="#" aria-label="LinkedIn" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors">
+            <a target="_blank" href="#" aria-label="LinkedIn" className="h-9 w-9 inline-flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground/40 transition-colors hidden">
               <Linkedin className="h-4 w-4" />
             </a>
           </div>

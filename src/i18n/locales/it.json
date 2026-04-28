@@ -37,7 +37,7 @@
       "kicker": "Come funziona",
       "title": "Tre tap, e sei pronto.",
       "steps": [
-        { "title": "Scegli il servizio", "desc": "Hair, Barber, Beauty, Make-up o Massage." },
+        { "title": "Scegli il servizio", "desc": "Parrucchieri, Barbieri, Estetiste, Make-up Artist o Massaggiatori." },
         { "title": "Scegli il professionista", "desc": "Confronta profili, recensioni e prezzi." },
         { "title": "Prenota dove e quando vuoi", "desc": "Conferma in app, lui viene da te." }
       ]
@@ -46,11 +46,11 @@
       "kicker": "Servizi",
       "title": "Tutto il beauty, in un'unica app.",
       "items": [
-        { "name": "Hair", "desc": "Tagli, piega, colore, trattamenti." },
-        { "name": "Barber", "desc": "Barba, rasatura, styling maschile." },
-        { "name": "Beauty", "desc": "Estetica viso e corpo, manicure, pedicure." },
-        { "name": "Make-up", "desc": "Per ogni occasione, evento o cerimonia." },
-        { "name": "Massage", "desc": "Massaggi rilassanti, sportivi e wellness." }
+        { "name": "Parrucchieri", "desc": "Tagli, piega, colore, trattamenti." },
+        { "name": "Barbieri", "desc": "Barba, rasatura, styling maschile." },
+        { "name": "Estetiste", "desc": "Estetica viso e corpo, manicure, pedicure." },
+        { "name": "Make-up Artist", "desc": "Per ogni occasione, evento o cerimonia." },
+        { "name": "Massaggiatori", "desc": "Massaggi rilassanti, sportivi e wellness." }
       ]
     },
     "whySection": {
