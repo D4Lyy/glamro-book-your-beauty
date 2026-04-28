@@ -34,7 +34,9 @@ const About = () => {
           <h3 className="font-display text-3xl md:text-4xl font-bold">{t("about.mission.title")}</h3>
           <div className="space-y-5">
             <p className="text-lg text-muted-foreground leading-relaxed">{t("about.mission.body")}</p>
-            <p className="text-lg text-muted-foreground leading-relaxed">{t("about.mission.extra")}</p>
+            {t("about.mission.extra") && (
+              <p className="text-lg text-muted-foreground leading-relaxed">{t("about.mission.extra")}</p>
+            )}
           </div>
         </div>
       </section>
@@ -60,9 +62,11 @@ const About = () => {
               ))}
             </div>
             <p className="text-lg text-muted-foreground leading-relaxed">{t("about.opportunity.body2")}</p>
-            <p className="font-display text-xl md:text-2xl font-semibold leading-snug text-balance">
-              {t("about.opportunity.closing")}
-            </p>
+            {t("about.opportunity.closing") && (
+              <p className="font-display text-xl md:text-2xl font-semibold leading-snug text-balance">
+                {t("about.opportunity.closing")}
+              </p>
+            )}
           </div>
         </div>
       </section>

@@ -130,37 +130,37 @@
   "about": {
     "kicker": "About",
     "title": "We're rewriting the rules of beauty.",
-    "lead": "Glamro was born from real, everyday needs: packed schedules, clients who can't find professionals on-site for ceremonies or special occasions, and an industry still too fragmented and under-digitized.",
-    "leadExtra": "We imagined something different: bringing beauty into the future. Not just a booking app, but a platform that connects people and professionals, makes services more accessible and creates new opportunities for the entire industry.",
+    "lead": "Glamro is the platform bringing beauty into the on-demand era. We connect clients and professionals in a simple, fast and digital way, transforming how beauty services are discovered, booked and experienced.",
+    "leadExtra": "For clients it means more convenience, flexibility and access to services whenever and wherever they're needed. For professionals it means valuing talent, generating new opportunities and growing in a digital ecosystem built for them.",
     "mission": {
       "title": "Our mission",
-      "body": "To build the digital infrastructure of beauty & wellness, connecting clients and professionals, simplifying access to services and helping make the industry more modern, transparent and merit-based.",
-      "extra": "We want to value talent, foster professional growth and help bring more structure and opportunity to an evolving market."
+      "body": "To build the digital infrastructure of beauty & wellness — making services more accessible, valuing talent and creating new opportunities for the industry.",
+      "extra": ""
     },
     "opportunity": {
-      "title": "More than a platform. An opportunity to grow.",
-      "body": "Glamro isn't just here to bring clients to professionals — it's here to help them truly grow.",
+      "title": "More than a platform. A growth ecosystem.",
+      "body": "With Glamro, professionals get:",
       "highlights": [
-        { "title": "More earnings", "desc": "New bookings and new clients, every day." },
-        { "title": "More visibility", "desc": "A personal brand that grows inside and outside the app." },
+        { "title": "More earnings", "desc": "New clients, every day." },
+        { "title": "More visibility", "desc": "Build your personal brand." },
         { "title": "More freedom", "desc": "Work how, where and when you want." }
       ],
-      "body2": "We want to offer professionals opportunities that go beyond a single service: building their own personal brand, gaining visibility on social media, accessing training and selling courses in the future, working in exclusive contexts like events, hotels and destination weddings — even turning their craft into a path that can take them to travel and grow professionally.",
-      "closing": "For us a professional isn't just a service provider. They are a talent to be valued."
+      "body2": "From events to hotels, all the way to new training and growth opportunities: Glamro doesn't just offer services, it creates possibilities.",
+      "closing": ""
     },
     "values": {
       "title": "Our values",
       "items": [
-        { "title": "Quality", "desc": "Only verified and selected professionals." },
-        { "title": "Trust", "desc": "Secure payments, real reviews, transparency." },
-        { "title": "Simplicity", "desc": "An immediate, intuitive and accessible experience." },
+        { "title": "Quality", "desc": "Verified professionals." },
+        { "title": "Trust", "desc": "Transparency and secure payments." },
+        { "title": "Simplicity", "desc": "Convenience for clients, intuitive experience." },
         { "title": "Innovation", "desc": "Technology at the service of people." },
         { "title": "Growth", "desc": "For clients, professionals and the entire industry." }
       ]
     },
     "outro": {
-      "title": "From professional to brand. From service to career.",
-      "body": "We don't just want to change the way beauty services are booked. We want to help build the future of the industry."
+      "title": "We're not just changing beauty.",
+      "body": "We're building its future."
     }
   },
   "faq": {

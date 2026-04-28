@@ -130,37 +130,37 @@
   "about": {
     "kicker": "Chi Siamo",
     "title": "Stiamo riscrivendo le regole del beauty.",
-    "lead": "Glamro nasce da esigenze reali di tutti i giorni: agende piene, clienti che non trovano professionisti a domicilio per cerimonie o occasioni speciali, e un settore ancora troppo frammentato e poco digitalizzato.",
-    "leadExtra": "Abbiamo immaginato qualcosa di diverso: portare il beauty nel futuro. Non una semplice app di prenotazione, ma una piattaforma che connette persone e professionisti, rende i servizi più accessibili e crea nuove opportunità per tutto il settore.",
+    "lead": "Glamro è la piattaforma che porta il beauty nell'era on-demand. Connettiamo clienti e professionisti in modo semplice, veloce e digitale, trasformando il modo in cui i servizi beauty vengono scoperti, prenotati e vissuti.",
+    "leadExtra": "Per i clienti significa più comodità, flessibilità e accesso ai servizi quando e dove servono. Per i professionisti significa valorizzare il talento, generare nuove opportunità e crescere in un ecosistema digitale pensato per loro.",
     "mission": {
       "title": "La nostra missione",
-      "body": "Costruire l'infrastruttura digitale del beauty & wellness, connettendo clienti e professionisti, semplificando l'accesso ai servizi e contribuendo a rendere il settore più moderno, trasparente e meritocratico.",
-      "extra": "Vogliamo valorizzare il talento, favorire la crescita professionale e contribuire a dare più struttura e opportunità a un mercato in evoluzione."
+      "body": "Costruire l'infrastruttura digitale del beauty & wellness, rendendo i servizi più accessibili, valorizzando il talento e creando nuove opportunità per il settore.",
+      "extra": ""
     },
     "opportunity": {
-      "title": "Più di una piattaforma. Un'opportunità di crescita.",
-      "body": "Glamro non nasce solo per portare clienti ai professionisti, ma per aiutarli a crescere davvero.",
+      "title": "Più di una piattaforma. Un ecosistema di crescita.",
+      "body": "Con Glamro i professionisti ottengono:",
       "highlights": [
-        { "title": "Più guadagni", "desc": "Nuove prenotazioni e nuovi clienti, ogni giorno." },
-        { "title": "Più visibilità", "desc": "Un personal brand che cresce dentro e fuori dall'app." },
+        { "title": "Più guadagni", "desc": "Nuovi clienti, ogni giorno." },
+        { "title": "Più visibilità", "desc": "Costruisci il tuo personal brand." },
         { "title": "Più libertà", "desc": "Lavora come, dove e quando vuoi." }
       ],
-      "body2": "Vogliamo offrire ai professionisti opportunità che vadano oltre il singolo servizio: costruire il proprio personal brand, ottenere visibilità anche sui social, accedere in futuro a formazione e vendita di corsi, lavorare in contesti esclusivi come eventi, hotel e destination wedding, persino trasformare il proprio mestiere in un percorso che possa portare a viaggiare e crescere professionalmente.",
-      "closing": "Per noi un professionista non è solo un fornitore di servizi. È un talento da valorizzare."
+      "body2": "Dagli eventi agli hotel, fino a nuove opportunità di formazione e crescita: Glamro non offre solo servizi, crea possibilità.",
+      "closing": ""
     },
     "values": {
       "title": "I nostri valori",
       "items": [
-        { "title": "Qualità", "desc": "Solo professionisti verificati e selezionati." },
-        { "title": "Fiducia", "desc": "Pagamenti sicuri, recensioni reali, trasparenza." },
-        { "title": "Semplicità", "desc": "Un'esperienza immediata, intuitiva e accessibile." },
+        { "title": "Qualità", "desc": "Professionisti verificati." },
+        { "title": "Fiducia", "desc": "Trasparenza e pagamenti sicuri." },
+        { "title": "Semplicità", "desc": "Comodità per i clienti, esperienza intuitiva." },
         { "title": "Innovazione", "desc": "Tecnologia al servizio delle persone." },
         { "title": "Crescita", "desc": "Per clienti, professionisti e per l'intero settore." }
       ]
     },
     "outro": {
-      "title": "Da professionista a brand. Da servizio a carriera.",
-      "body": "Non vogliamo solo cambiare il modo in cui si prenota un servizio beauty. Vogliamo contribuire a costruire il futuro del settore."
+      "title": "Non stiamo solo cambiando il beauty.",
+      "body": "Stiamo costruendo il suo futuro."
     }
   },
   "faq": {
