@@ -130,19 +130,37 @@
   "about": {
     "kicker": "Chi Siamo",
     "title": "Stiamo riscrivendo le regole del beauty.",
-    "lead": "Glamro nasce dall'idea che la bellezza non debba essere un appuntamento, ma un'esperienza. Un'esperienza fluida, immediata, accessibile.",
+    "lead": "Glamro nasce da esigenze reali di tutti i giorni: agende piene, clienti che non trovano professionisti a domicilio per cerimonie o occasioni speciali, e un settore ancora troppo frammentato e poco digitalizzato.",
+    "leadExtra": "Abbiamo immaginato qualcosa di diverso: portare il beauty nel futuro. Non una semplice app di prenotazione, ma una piattaforma che connette persone e professionisti, rende i servizi più accessibili e crea nuove opportunità per tutto il settore.",
     "mission": {
       "title": "La nostra missione",
-      "body": "Portare il mondo beauty & wellness nel futuro, costruendo l'infrastruttura digitale che connette milioni di clienti ai migliori professionisti d'Italia."
+      "body": "Costruire l'infrastruttura digitale del beauty & wellness, connettendo clienti e professionisti, semplificando l'accesso ai servizi e contribuendo a rendere il settore più moderno, trasparente e meritocratico.",
+      "extra": "Vogliamo valorizzare il talento, favorire la crescita professionale e contribuire a dare più struttura e opportunità a un mercato in evoluzione."
+    },
+    "opportunity": {
+      "title": "Più di una piattaforma. Un'opportunità di crescita.",
+      "body": "Glamro non nasce solo per portare clienti ai professionisti, ma per aiutarli a crescere davvero.",
+      "highlights": [
+        { "title": "Più guadagni", "desc": "Nuove prenotazioni e nuovi clienti, ogni giorno." },
+        { "title": "Più visibilità", "desc": "Un personal brand che cresce dentro e fuori dall'app." },
+        { "title": "Più libertà", "desc": "Lavora come, dove e quando vuoi." }
+      ],
+      "body2": "Vogliamo offrire ai professionisti opportunità che vadano oltre il singolo servizio: costruire il proprio personal brand, ottenere visibilità anche sui social, accedere in futuro a formazione e vendita di corsi, lavorare in contesti esclusivi come eventi, hotel e destination wedding, persino trasformare il proprio mestiere in un percorso che possa portare a viaggiare e crescere professionalmente.",
+      "closing": "Per noi un professionista non è solo un fornitore di servizi. È un talento da valorizzare."
     },
     "values": {
       "title": "I nostri valori",
       "items": [
-        { "title": "Qualità", "desc": "Solo professionisti certificati e selezionati con cura." },
-        { "title": "Semplicità", "desc": "Un'esperienza pensata per essere immediata, in ogni dettaglio." },
-        { "title": "Fiducia", "desc": "Pagamenti sicuri, recensioni reali, assistenza umana." },
-        { "title": "Innovazione", "desc": "Tecnologia al servizio delle persone, mai il contrario." }
+        { "title": "Qualità", "desc": "Solo professionisti verificati e selezionati." },
+        { "title": "Fiducia", "desc": "Pagamenti sicuri, recensioni reali, trasparenza." },
+        { "title": "Semplicità", "desc": "Un'esperienza immediata, intuitiva e accessibile." },
+        { "title": "Innovazione", "desc": "Tecnologia al servizio delle persone." },
+        { "title": "Crescita", "desc": "Per clienti, professionisti e per l'intero settore." }
       ]
+    },
+    "outro": {
+      "title": "Da professionista a brand. Da servizio a carriera.",
+      "body": "Non vogliamo solo cambiare il modo in cui si prenota un servizio beauty. Vogliamo contribuire a costruire il futuro del settore."
     }
   },
   "faq": {

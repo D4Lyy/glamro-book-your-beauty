@@ -130,19 +130,37 @@
   "about": {
     "kicker": "About",
     "title": "We're rewriting the rules of beauty.",
-    "lead": "Glamro was born from the idea that beauty should not be an appointment, but an experience. A fluid, immediate, accessible experience.",
+    "lead": "Glamro was born from real, everyday needs: packed schedules, clients who can't find professionals on-site for ceremonies or special occasions, and an industry still too fragmented and under-digitized.",
+    "leadExtra": "We imagined something different: bringing beauty into the future. Not just a booking app, but a platform that connects people and professionals, makes services more accessible and creates new opportunities for the entire industry.",
     "mission": {
       "title": "Our mission",
-      "body": "To bring the beauty & wellness world into the future, building the digital infrastructure that connects millions of clients with the best professionals in Italy."
+      "body": "To build the digital infrastructure of beauty & wellness, connecting clients and professionals, simplifying access to services and helping make the industry more modern, transparent and merit-based.",
+      "extra": "We want to value talent, foster professional growth and help bring more structure and opportunity to an evolving market."
+    },
+    "opportunity": {
+      "title": "More than a platform. An opportunity to grow.",
+      "body": "Glamro isn't just here to bring clients to professionals — it's here to help them truly grow.",
+      "highlights": [
+        { "title": "More earnings", "desc": "New bookings and new clients, every day." },
+        { "title": "More visibility", "desc": "A personal brand that grows inside and outside the app." },
+        { "title": "More freedom", "desc": "Work how, where and when you want." }
+      ],
+      "body2": "We want to offer professionals opportunities that go beyond a single service: building their own personal brand, gaining visibility on social media, accessing training and selling courses in the future, working in exclusive contexts like events, hotels and destination weddings — even turning their craft into a path that can take them to travel and grow professionally.",
+      "closing": "For us a professional isn't just a service provider. They are a talent to be valued."
     },
     "values": {
       "title": "Our values",
       "items": [
-        { "title": "Quality", "desc": "Only certified, carefully selected professionals." },
-        { "title": "Simplicity", "desc": "An experience designed to be immediate, in every detail." },
-        { "title": "Trust", "desc": "Safe payments, real reviews, human support." },
-        { "title": "Innovation", "desc": "Technology serving people, never the opposite." }
+        { "title": "Quality", "desc": "Only verified and selected professionals." },
+        { "title": "Trust", "desc": "Secure payments, real reviews, transparency." },
+        { "title": "Simplicity", "desc": "An immediate, intuitive and accessible experience." },
+        { "title": "Innovation", "desc": "Technology at the service of people." },
+        { "title": "Growth", "desc": "For clients, professionals and the entire industry." }
       ]
+    },
+    "outro": {
+      "title": "From professional to brand. From service to career.",
+      "body": "We don't just want to change the way beauty services are booked. We want to help build the future of the industry."
     }
   },
   "faq": {
