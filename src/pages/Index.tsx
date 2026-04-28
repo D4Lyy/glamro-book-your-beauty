@@ -70,36 +70,17 @@ const Index = () => {
             </Link>
           </motion.div>
 
-          {/* TRUST BAR */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.1 }}
-            className="mt-20 grid gap-px bg-border rounded-2xl overflow-hidden grid-cols-2 md:grid-cols-4 max-w-5xl mx-auto"
-          >
-            {trust.map((item, i) => {
-              const Icon = trustIcons[i];
-              return (
-                <div key={i} className="bg-background/80 backdrop-blur p-5 md:p-6">
-                  <Icon className="h-5 w-5 mb-3 text-foreground" strokeWidth={1.5} />
-                  <p className="font-display text-sm md:text-base font-semibold leading-tight">{item.title}</p>
-                  <p className="text-xs text-muted-foreground mt-1.5 leading-snug">{item.desc}</p>
-                </div>
-              );
-            })}
-          </motion.div>
         </div>
 
         {/* Marquee */}
         <div className="relative border-y border-border py-6 overflow-hidden">
-          <div className="flex animate-marquee whitespace-nowrap">
-            {[0, 1].map((i) => (
-              <div key={i} className="flex shrink-0 items-center gap-12 px-6 font-display text-2xl md:text-3xl text-muted-foreground/70">
+          <div className="flex w-max animate-marquee whitespace-nowrap">
+            {[0, 1].map((copy) => (
+              <div key={copy} aria-hidden={copy === 1} className="flex shrink-0 items-center font-display text-2xl md:text-3xl text-muted-foreground/70">
                 {t("home.marquee").split(" · ").map((w, idx) => (
-                  <span key={idx} className="flex items-center gap-12">
-                    <span>{w}</span>
-                    <span className="text-foreground/30">✦</span>
+                  <span key={idx} className="flex items-center">
+                    <span className="px-6">{w}</span>
+                    <span className="text-foreground/30 px-6">✦</span>
                   </span>
                 ))}
               </div>
@@ -186,25 +167,6 @@ const Index = () => {
               </motion.div>
             );
           })}
-        </div>
-      </section>
-
-      {/* VISION */}
-      <section className="container mx-auto py-24 md:py-32 border-t border-border">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-24 items-start">
-          <SectionHeading
-            kicker={t("home.vision.kicker")}
-            title={t("home.vision.title")}
-          />
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.15 }}
-            className="text-lg text-muted-foreground leading-relaxed lg:mt-4"
-          >
-            {t("home.vision.body")}
-          </motion.p>
         </div>
       </section>
 
