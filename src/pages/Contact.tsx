@@ -63,12 +63,12 @@ const Contact = () => {
       } else {
         // 4. Handle Server Errors (e.g., Brevo API failure)
         console.error("Server Error:", result.message);
-        toast.error(result.message || "Errore durante l'invio.");
+        toast.error(result.message || t("contact.form.error"));
       }
     } catch (error) {
       // 5. Handle Network Errors
       console.error("Network Error:", error);
-      toast.error("Errore di connessione. Controlla la tua rete.");
+      toast.error(t("contact.form.error"));
     } finally {
       setLoading(false);
     }

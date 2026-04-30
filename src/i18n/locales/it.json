@@ -209,7 +209,8 @@
       "subject": "Oggetto",
       "message": "Messaggio",
       "send": "Invia messaggio",
-      "success": "Messaggio inviato! Ti risponderemo entro 24 ore."
+      "success": "Messaggio inviato! Ti risponderemo entro 24 ore.",
+      "error": "Qualcosa è andato storto. Riprova più tardi."
     }
   },
   "footer": {

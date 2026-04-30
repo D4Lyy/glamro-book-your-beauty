@@ -209,7 +209,8 @@
       "subject": "Subject",
       "message": "Message",
       "send": "Send message",
-      "success": "Message sent! We'll reply within 24 hours."
+      "success": "Message sent! We'll reply within 24 hours.",
+      "error": "Something went wrong. Please try again later."
     }
   },
   "footer": {
