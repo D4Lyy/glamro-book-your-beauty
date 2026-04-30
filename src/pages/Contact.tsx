@@ -27,38 +27,30 @@ const Contact = () => {
     value: string;
   }>;
 
-  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
 
     const form = e.target as HTMLFormElement;
     const data = new FormData(form);
-    const payload = {
-      name: String(data.get("name") || ""),
-      email: String(data.get("email") || ""),
-      role,
-      subject: String(data.get("subject") || ""),
-      message: String(data.get("message") || ""),
-    };
+    const name = String(data.get("name") || "");
+    const email = String(data.get("email") || "");
+    const roleVal = role;
+    const subject = String(data.get("subject") || "");
+    const message = String(data.get("message") || "");
 
-    try {
-      const res = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
+    const mailSubject = `[${roleVal}] ${subject}`;
+    const mailBody = `Nome: ${name}\nEmail: ${email}\nRuolo: ${roleVal}\n\n${message}`;
+    const mailto = `mailto:contact@glamro.it?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
 
-      if (!res.ok) throw new Error(`Request failed: ${res.status}`);
+    window.location.href = mailto;
 
+    setTimeout(() => {
+      setLoading(false);
       toast.success(t("contact.form.success"));
       form.reset();
       setRole("");
-    } catch (err) {
-      console.error(err);
-      toast.error(t("contact.form.error", { defaultValue: "Something went wrong. Please try again." }));
-    } finally {
-      setLoading(false);
-    }
+    }, 600);
   };
 
   return (
