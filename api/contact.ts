@@ -13,22 +13,11 @@ export default async function handler(req: any, res: any) {
   const { name, email, role, subject, message } = req.body;
 
   try {
-    // 1. Add/Update Contact in your Brevo List (marketing)
-    await client.contacts.createContact({
-      email: email,
-      attributes: {
-        NOME: name,
-        USER_TYPE: role,
-      },
-      listIds: [4], // Your specific list ID
-      updateEnabled: true
-    });
-
-    // 2. Send the Transactional Email (to your inbox)
+    // Send the Transactional Email (to your inbox)
     await client.transactionalEmails.sendTransacEmail({
-      subject: `[${role}] ${subject}`,
-      sender: { name: "Glamro Web", email: "noreply@glamro.it" },
-      to: [{ email: "contact@glamro.it", name: "Support" }],
+      subject: `Website Inquiry: [${role}] ${subject}`,
+      sender: { name: "Glamro Website", email: "noreply@glamro.it" },
+      to: [{ email: "contact@glamro.it", name: "Contact" }],
       replyTo: { email: email, name: name },
       textContent: `New inquiry from ${name}\nRole: ${role}\n\n${message}`,
     });
