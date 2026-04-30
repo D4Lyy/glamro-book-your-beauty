@@ -187,6 +187,11 @@
     "kicker": "Contatti",
     "title": "Parliamo.",
     "subtitle": "Hai una domanda, un'idea o vuoi collaborare con noi? Ti rispondiamo entro 24 ore.",
+    "webinar": {
+      "title": "Hai domande su Glamro o vuoi entrare come professionista?",
+      "body": "Prenota una call conoscitiva con il team e scopri la piattaforma, le opportunità e come possiamo crescere insieme.",
+      "cta": "Prenota la call"
+    },
     "channels": [
       { "icon": "mail", "label": "Contatti generali & Partnership", "value": "contact@glamro.it" },
       { "icon": "megaphone", "label": "Social & Marketing", "value": "marketing@glamro.it" },
