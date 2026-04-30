@@ -27,30 +27,51 @@ const Contact = () => {
     value: string;
   }>;
 
-  const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
 
+    // 1. Extract data from the form
     const form = e.target as HTMLFormElement;
-    const data = new FormData(form);
-    const name = String(data.get("name") || "");
-    const email = String(data.get("email") || "");
-    const roleVal = role;
-    const subject = String(data.get("subject") || "");
-    const message = String(data.get("message") || "");
+    const formData = new FormData(form);
+    
+    const payload = {
+      name: String(formData.get("name")),
+      email: String(formData.get("email")),
+      role: role, // This comes from your useState
+      subject: String(formData.get("subject")),
+      message: String(formData.get("message")),
+    };
 
-    const mailSubject = `[${roleVal}] ${subject}`;
-    const mailBody = `Nome: ${name}\nEmail: ${email}\nRuolo: ${roleVal}\n\n${message}`;
-    const mailto = `mailto:contact@glamro.it?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
+    try {
+      // 2. Post to your Vercel Serverless Function
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      });
 
-    window.location.href = mailto;
+      const result = await response.json();
 
-    setTimeout(() => {
+      if (response.ok) {
+        // 3. Handle Success
+        toast.success(t("contact.form.success"));
+        form.reset();
+        setRole(""); // Reset the Shadcn Select state
+      } else {
+        // 4. Handle Server Errors (e.g., Brevo API failure)
+        console.error("Server Error:", result.message);
+        toast.error(result.message || "Errore durante l'invio.");
+      }
+    } catch (error) {
+      // 5. Handle Network Errors
+      console.error("Network Error:", error);
+      toast.error("Errore di connessione. Controlla la tua rete.");
+    } finally {
       setLoading(false);
-      toast.success(t("contact.form.success"));
-      form.reset();
-      setRole("");
-    }, 600);
+    }
   };
 
   return (
