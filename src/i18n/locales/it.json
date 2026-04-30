@@ -73,8 +73,9 @@
       "title": "La strada verso il lancio",
       "items": [
         { "date": "🚀 1 Maggio 2026", "title": "Lancio ufficiale in tutta Italia", "desc": "Glamro disponibile su App Store e Google Play in tutto il territorio nazionale." },
-        { "date": "👕 Settembre 2026", "title": "Espansione merchandising professionisti", "desc": "Linea dedicata per i GlamPro, con strumenti e brand identity." },
-        { "date": "🛍️ Gennaio 2027", "title": "Apertura e-commerce", "desc": "Prodotti e servizi per professionisti e clienti, direttamente in app." }
+        { "date": "👕 Prossimamente", "title": "Espansione merchandising professionisti", "desc": "Linea dedicata per i GlamPro, con strumenti e brand identity." },
+        { "date": "🛍️ Prossimamente", "title": "Apertura e-commerce", "desc": "Prodotti e servizi per professionisti e clienti, direttamente in app." },
+        { "date": "⭐ Prossimamente", "title": "GlamScore e scalabilità", "desc": "Un sistema di livelli (Basic, Plus, Pro, Elite, Ambassador) che premia i professionisti con commissioni ridotte, maggiore visibilità e accesso a opportunità esclusive man mano che crescono sulla piattaforma." }
       ]
     },
     "finalCta": {
@@ -186,6 +187,11 @@
     "kicker": "Contatti",
     "title": "Parliamo.",
     "subtitle": "Hai una domanda, un'idea o vuoi collaborare con noi? Ti rispondiamo entro 24 ore.",
+    "webinar": {
+      "title": "Hai domande su Glamro o vuoi entrare come professionista?",
+      "body": "Prenota una call conoscitiva con il team e scopri la piattaforma, le opportunità e come possiamo crescere insieme.",
+      "cta": "Prenota la call"
+    },
     "channels": [
       { "icon": "mail", "label": "Contatti generali & Partnership", "value": "contact@glamro.it" },
       { "icon": "megaphone", "label": "Social & Marketing", "value": "marketing@glamro.it" },

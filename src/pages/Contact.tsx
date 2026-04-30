@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Mail, Megaphone, Headset } from "lucide-react";
+import { Mail, Megaphone, Headset, Calendar, ArrowRight } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
@@ -30,10 +30,25 @@ const Contact = () => {
   const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
+
+    const form = e.target as HTMLFormElement;
+    const data = new FormData(form);
+    const name = String(data.get("name") || "");
+    const email = String(data.get("email") || "");
+    const roleVal = role;
+    const subject = String(data.get("subject") || "");
+    const message = String(data.get("message") || "");
+
+    const mailSubject = `[${roleVal}] ${subject}`;
+    const mailBody = `Nome: ${name}\nEmail: ${email}\nRuolo: ${roleVal}\n\n${message}`;
+    const mailto = `mailto:contact@glamro.it?subject=${encodeURIComponent(mailSubject)}&body=${encodeURIComponent(mailBody)}`;
+
+    window.location.href = mailto;
+
     setTimeout(() => {
       setLoading(false);
       toast.success(t("contact.form.success"));
-      (e.target as HTMLFormElement).reset();
+      form.reset();
       setRole("");
     }, 600);
   };
@@ -41,6 +56,30 @@ const Contact = () => {
   return (
     <section className="container mx-auto py-20 md:py-32">
       <SectionHeading kicker={t("contact.kicker")} title={t("contact.title")} subtitle={t("contact.subtitle")} />
+
+      {/* Webinar / discovery call */}
+      <a
+        href="https://calendly.com/contact-glamro/webinar-glamro-scopri-la-piattaforma-e-la-sua-vison"
+        target="_blank"
+        rel="noreferrer"
+        className="mt-12 block p-8 md:p-10 rounded-2xl border border-border bg-card hover:border-foreground/40 transition-colors group"
+      >
+        <div className="flex flex-col md:flex-row md:items-center gap-6">
+          <Calendar className="h-8 w-8 shrink-0 text-foreground" strokeWidth={1.5} />
+          <div className="flex-1">
+            <h3 className="font-display text-2xl md:text-3xl font-semibold leading-tight">
+              {t("contact.webinar.title")}
+            </h3>
+            <p className="text-muted-foreground mt-2 leading-relaxed">
+              {t("contact.webinar.body")}
+            </p>
+          </div>
+          <span className="inline-flex items-center gap-2 font-display text-base shrink-0 group-hover:translate-x-1 transition-transform">
+            {t("contact.webinar.cta")}
+            <ArrowRight className="h-4 w-4" />
+          </span>
+        </div>
+      </a>
 
       <div className="mt-16 grid gap-12 lg:grid-cols-[1fr_1.2fr]">
         {/* Channels */}
