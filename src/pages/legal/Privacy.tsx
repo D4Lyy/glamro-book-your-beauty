@@ -3,6 +3,8 @@ import { LegalPage } from "./LegalPage";
 
 const PrivacyIT = () => (
   <>
+    <p><strong>Privacy Policy di Glamro</strong> — Informativa sul trattamento dei dati personali ai sensi del Regolamento UE 2016/679 (GDPR), applicabile all'app mobile Glamro (Cliente e GlamPro) e al sito www.glamro.it.</p>
+
     <h2>1. Categorie di dati trattati</h2>
     <ul>
       <li>Dati anagrafici e di contatto (nome, cognome, email, telefono);</li>
@@ -76,6 +78,8 @@ const PrivacyIT = () => (
 
 const PrivacyEN = () => (
   <>
+    <p><strong>Glamro Privacy Policy</strong> — Information on the processing of personal data pursuant to EU Regulation 2016/679 (GDPR), applicable to the Glamro mobile app (Client and GlamPro) and the website www.glamro.it.</p>
+
     <h2>1. Categories of data processed</h2>
     <ul>
       <li>Personal and contact data (first name, last name, email, phone);</li>
