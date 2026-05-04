@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { ReactNode } from "react";
-import { SectionHeading } from "@/components/SectionHeading";
+import { ReactNode, useEffect } from "react";
 
 interface LegalPageProps {
   kicker: string;
@@ -8,9 +7,32 @@ interface LegalPageProps {
   children: ReactNode;
 }
 
-export const LegalPage = ({ kicker, title, children }: LegalPageProps) => (
+export const LegalPage = ({ kicker, title, children }: LegalPageProps) => {
+  useEffect(() => {
+    const previous = document.title;
+    document.title = `${title} — Glamro`;
+    return () => {
+      document.title = previous;
+    };
+  }, [title]);
+
+  return (
   <div className="container mx-auto pt-32 pb-24">
-    <SectionHeading kicker={kicker} title={title} />
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+      className="max-w-3xl"
+    >
+      {kicker && (
+        <span className="inline-block text-xs uppercase tracking-[0.25em] text-muted-foreground mb-5">
+          — {kicker}
+        </span>
+      )}
+      <h1 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-[1.05] text-balance">
+        {title}
+      </h1>
+    </motion.div>
     <motion.article
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -28,4 +50,5 @@ export const LegalPage = ({ kicker, title, children }: LegalPageProps) => (
       {children}
     </motion.article>
   </div>
-);
+  );
+};
