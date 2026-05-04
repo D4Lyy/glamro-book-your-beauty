@@ -22,11 +22,11 @@ export const Navbar = () => {
 
   const links = [
     { to: "/", label: t("nav.home") },
-    { to: "/clienti", label: t("nav.clients") },
-    { to: "/professionisti", label: t("nav.pros") },
-    { to: "/chi-siamo", label: t("nav.about") },
+    { to: "/clients", label: t("nav.clients") },
+    { to: "/professionals", label: t("nav.pros") },
+    { to: "/about", label: t("nav.about") },
     { to: "/faq", label: t("nav.faq") },
-    { to: "/contatti", label: t("nav.contact") },
+    { to: "/contact", label: t("nav.contact") },
   ];
 
   return (

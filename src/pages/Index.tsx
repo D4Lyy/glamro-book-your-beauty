@@ -60,7 +60,7 @@ const Index = () => {
           >
             <AppStoreButtons kind="client" />
             <Link
-              to="/professionisti"
+              to="/professionals"
               className="group inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               {t("cta.workWithUs")}
