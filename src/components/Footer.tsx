@@ -24,8 +24,8 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-xs uppercase tracking-widest text-muted-foreground">{t("footer.product")}</h4>
             <ul className="space-y-2.5 text-sm">
-              <li><Link to="/clienti" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.clients")}</Link></li>
-              <li><Link to="/professionisti" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.pros")}</Link></li>
+              <li><Link to="/clients" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.clients")}</Link></li>
+              <li><Link to="/professionals" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.pros")}</Link></li>
               <li><Link to="/faq" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.faq")}</Link></li>
             </ul>
           </div>
@@ -33,8 +33,8 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-xs uppercase tracking-widest text-muted-foreground">{t("footer.company")}</h4>
             <ul className="space-y-2.5 text-sm">
-              <li><Link to="/chi-siamo" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.about")}</Link></li>
-              <li><Link to="/contatti" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.contact")}</Link></li>
+              <li><Link to="/about" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.about")}</Link></li>
+              <li><Link to="/contact" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.contact")}</Link></li>
             </ul>
           </div>
 
@@ -44,7 +44,7 @@ export const Footer = () => {
               <li><Link to="/privacy" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.privacy")}</Link></li>
               <li><Link to="/terms" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.terms")}</Link></li>
               <li><Link to="/cookie-policy" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.cookies")}</Link></li>
-              <li><Link to="/note-legali" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.legalNotice")}</Link></li>
+              <li><Link to="/legal-notice" className="hover:text-foreground transition-colors text-muted-foreground">{t("footer.legalNotice")}</Link></li>
             </ul>
           </div>
         </div>
