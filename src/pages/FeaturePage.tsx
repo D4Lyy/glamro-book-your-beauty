@@ -10,6 +10,13 @@ interface OnboardingStep {
   desc: string;
 }
 
+interface Partner {
+  name: string;
+  desc: string;
+  cta: string;
+  url: string;
+}
+
 interface Props {
   kicker: string;
   title: string;
@@ -17,6 +24,7 @@ interface Props {
   features: Array<{ title: string; desc: string }>;
   onboarding?: { kicker: string; title: string; steps: OnboardingStep[] };
   ecosystem?: string;
+  partners?: { kicker: string; title: string; items: Partner[] };
   ctaTitle?: string;
   ctaSubtitle?: string;
   appKind?: "client" | "pro";
