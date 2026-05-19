@@ -2,6 +2,8 @@ import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/SectionHeading";
 import { AppStoreButtons } from "@/components/AppStoreButtons";
+import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
 
 interface OnboardingStep {
   title: string;
