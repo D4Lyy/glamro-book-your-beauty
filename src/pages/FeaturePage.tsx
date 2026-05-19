@@ -170,6 +170,11 @@ export const ProsPage = () => {
         steps: t("pros.onboarding.steps", { returnObjects: true }) as OnboardingStep[],
       }}
       ecosystem={t("pros.ecosystem")}
+      partners={{
+        kicker: t("pros.partners.kicker"),
+        title: t("pros.partners.title"),
+        items: t("pros.partners.items", { returnObjects: true }) as Partner[],
+      }}
       ctaTitle={t("pros.ctaTitle")}
       ctaSubtitle={t("pros.ctaSubtitle")}
     />
