@@ -30,7 +30,7 @@ interface Props {
   appKind?: "client" | "pro";
 }
 
-const FeaturePage = ({ kicker, title, subtitle, features, onboarding, ecosystem, ctaTitle, ctaSubtitle, appKind = "client" }: Props) => (
+const FeaturePage = ({ kicker, title, subtitle, features, onboarding, ecosystem, partners, ctaTitle, ctaSubtitle, appKind = "client" }: Props) => (
   <>
     <section className="container mx-auto py-20 md:py-32">
       <SectionHeading kicker={kicker} title={title} subtitle={subtitle} />
@@ -97,6 +97,33 @@ const FeaturePage = ({ kicker, title, subtitle, features, onboarding, ecosystem,
         >
           {ecosystem}
         </motion.p>
+      </section>
+    )}
+
+    {partners && (
+      <section className="container mx-auto pb-24 md:pb-32 border-t border-border pt-24 md:pt-32">
+        <SectionHeading kicker={partners.kicker} title={partners.title} align="center" />
+        <div className="mt-16 grid gap-6 md:grid-cols-3 max-w-5xl mx-auto">
+          {partners.items.map((p, i) => (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.5, delay: i * 0.08 }}
+              className="relative p-6 rounded-2xl border border-border bg-card flex flex-col"
+            >
+              <h3 className="font-display text-xl font-semibold mb-2">{p.name}</h3>
+              <p className="text-muted-foreground text-sm leading-relaxed flex-1">{p.desc}</p>
+              <a href={p.url} target="_blank" rel="noopener noreferrer" className="mt-6 inline-block">
+                <Button variant="outline" className="w-full">
+                  {p.cta}
+                  <ExternalLink className="ml-2 h-4 w-4" />
+                </Button>
+              </a>
+            </motion.div>
+          ))}
+        </div>
       </section>
     )}
 
