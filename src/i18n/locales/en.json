@@ -125,6 +125,15 @@
       ]
     },
     "ecosystem": "Not just a platform. An ecosystem for beauty professionals.",
+    "partners": {
+      "kicker": "Partner Services",
+      "title": "Everything you need to start your business.",
+      "items": [
+        { "name": "Fiscozen", "desc": "Help with VAT number registration and tax management.", "cta": "Get started", "url": "https://www.fiscozen.it/promo/partner/" },
+        { "name": "Lokky", "desc": "Insurance for your company and professional activity.", "cta": "Get insured", "url": "https://www.lokky.it/glamro/" },
+        { "name": "Finom", "desc": "Company account setup and business banking.", "cta": "Open account", "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH" }
+      ]
+    },
     "ctaTitle": "Become one of the first GlamPros",
     "ctaSubtitle": "Join the community redefining beauty in Italy."
   },
