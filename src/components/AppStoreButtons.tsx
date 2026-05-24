@@ -11,10 +11,10 @@ export const AppStoreButtons = ({ className = "", variant = "default", kind = "c
   const { t } = useTranslation();
   const isCompact = variant === "compact";
   const label = kind === "pro" ? t("cta.proApp") : t("cta.clientApp");
-  const appleClientLink = "#"; // Placeholder, replace with actual link when available 
-  const googleClientLink = "#"; // Placeholder, replace with actual link when available 
-  const appleProLink = "#"; // Placeholder, replace with actual link when available 
-  const googleProLink = "#"; // Placeholder, replace with actual link when available
+  const appleClientLink = "https://apps.apple.com/us/app/glamro/id6756219312";
+  const googleClientLink = "https://play.google.com/store/apps/details?id=com.glamro.clientapp";
+  const appleProLink = "https://apps.apple.com/us/app/glamro-pro/id6758321869";
+  const googleProLink = "https://play.google.com/store/apps/details?id=com.glamropro.app";
 
   const baseClass =
     "group inline-flex items-center gap-3 rounded-xl border border-foreground/20 bg-foreground text-background hover:bg-foreground/90 transition-colors duration-300 " +
