@@ -128,9 +128,9 @@
       "kicker": "Partner Services",
       "title": "Everything you need to start your business.",
       "items": [
-        { "name": "Fiscozen", "desc": "Help with VAT number registration and tax management.", "cta": "Get started", "url": "https://www.fiscozen.it/promo/partner/", "image": "../../public/images/fiscozen.jpg" },
-        { "name": "Lokky", "desc": "Insurance for your company and professional activity.", "cta": "Get insured", "url": "https://www.lokky.it/glamro/", "image" : "../../public/images/lokky.png" },
-        { "name": "Finom", "desc": "Company account setup and business banking.", "cta": "Open account", "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH", "image": "../../public/images/finom.jpeg" }
+        { "name": "Fiscozen", "desc": "Help with VAT number registration and tax management.", "cta": "Get started", "url": "https://www.fiscozen.it/promo/partner/", "image": "/images/fiscozen.jpg" },
+        { "name": "Lokky", "desc": "Insurance for your company and professional activity.", "cta": "Get insured", "url": "https://www.lokky.it/glamro/", "image" : "/images/lokky.png" },
+        { "name": "Finom", "desc": "Company account setup and business banking.", "cta": "Open account", "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH", "image": "/images/finom.jpeg" }
       ]
     },
     "ctaTitle": "Become one of the first GlamPros",
