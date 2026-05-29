@@ -128,9 +128,9 @@
       "kicker": "Servizi Partner",
       "title": "Tutto ciò che ti serve per avviare la tua attività.",
       "items": [
-        { "name": "Fiscozen", "desc": "Aiuto per la partita IVA e la gestione fiscale.", "cta": "Inizia ora", "url": "https://www.fiscozen.it/promo/partner/" },
-        { "name": "Lokky", "desc": "Assicurazione per la tua attività e la tua azienda.", "cta": "Assicurati", "url": "https://www.lokky.it/glamro/" },
-        { "name": "Finom", "desc": "Apertura conto aziendale e business banking.", "cta": "Apri conto", "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH" }
+        { "name": "Fiscozen", "desc": "Aiuto per la partita IVA e la gestione fiscale.", "cta": "Inizia ora", "url": "https://www.fiscozen.it/promo/partner/", "image": "../../public/images/fiscozen.jpg" },
+        { "name": "Lokky", "desc": "Assicurazione per la tua attività e la tua azienda.", "cta": "Assicurati", "url": "https://www.lokky.it/glamro/", "image" : "../../public/images/lokky.png" },
+        { "name": "Finom", "desc": "Apertura conto aziendale e business banking.", "cta": "Apri conto", "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH", "image": "../../public/images/finom.jpeg" }
       ]
     },
     "ctaTitle": "Diventa uno dei primi GlamPro",

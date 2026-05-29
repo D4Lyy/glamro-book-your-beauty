@@ -15,6 +15,7 @@ interface Partner {
   desc: string;
   cta: string;
   url: string;
+  image: string;
 }
 
 interface Props {
@@ -114,6 +115,7 @@ const FeaturePage = ({ kicker, title, subtitle, features, onboarding, ecosystem,
               className="relative p-6 rounded-2xl border border-border bg-card flex flex-col"
             >
               <h3 className="font-display text-xl font-semibold mb-2">{p.name}</h3>
+              <img src={p.image} alt={p.name} className="mx-auto mb-4" />
               <p className="text-muted-foreground text-sm leading-relaxed flex-1">{p.desc}</p>
               <a href={p.url} target="_blank" rel="noopener noreferrer" className="mt-6 inline-block">
                 <Button variant="outline" className="w-full">
