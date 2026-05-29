@@ -74,8 +74,7 @@
       "items": [
         { "date": "🚀 Maggio 2026", "title": "Lancio ufficiale in tutta Italia", "desc": "Glamro disponibile su App Store e Google Play in tutto il territorio nazionale." },
         { "date": "👕 Prossimamente", "title": "Espansione merchandising professionisti", "desc": "Linea dedicata per i GlamPro, con strumenti e brand identity." },
-        { "date": "🛍️ Prossimamente", "title": "Apertura e-commerce", "desc": "Prodotti e servizi per professionisti e clienti, direttamente in app." },
-        { "date": "⭐ Prossimamente", "title": "GlamScore e scalabilità", "desc": "Un sistema di livelli (Basic, Plus, Pro, Elite, Ambassador) che premia i professionisti con commissioni ridotte, maggiore visibilità e accesso a opportunità esclusive man mano che crescono sulla piattaforma." }
+        { "date": "🛍️ Prossimamente", "title": "Apertura e-commerce", "desc": "Prodotti e servizi per professionisti e clienti, direttamente in app." }
       ]
     },
     "finalCta": {
