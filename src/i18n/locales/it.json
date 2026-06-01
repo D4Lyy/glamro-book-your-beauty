@@ -18,10 +18,10 @@
     "joinPros": "Diventa uno dei primi GlamPro",
     "downloadApp": "Scarica l'app",
     "workWithUs": "Lavora con noi",
-    "downloadMay": "Scarica l'app dal 1 maggio"
+    "downloadMay": "Scarica l'app ora"
   },
   "home": {
-    "announce": "Disponibile in tutta Italia dal 1 maggio 🇮🇹",
+    "announce": "Disponibile in tutta Italia 🇮🇹",
     "tagline": "Il primo beauty delivery in Italia",
     "subtitle": "Prenota i migliori parrucchieri, barbieri, estetiste, make-up artist e massaggiatori, ovunque tu sia. In pochi tap.",
     "marquee": "Parrucchieri · Barbieri · Estetiste · Make-up Artist · Massaggiatori",
@@ -79,7 +79,7 @@
     },
     "finalCta": {
       "title": "La tua bellezza, finalmente, a un solo tap.",
-      "subtitle": "Scarica Glamro dal 1 maggio e unisciti alla rivoluzione del beauty delivery."
+      "subtitle": "Scarica Glamro ora e unisciti alla rivoluzione del beauty delivery."
     }
   },
   "clients": {
@@ -96,7 +96,7 @@
       { "title": "Disponibile anche weekend", "desc": "Sabato, domenica e fasce orarie estese per adattarsi alla tua vita." },
       { "title": "Beauty on demand", "desc": "Il salone arriva da te, non più il contrario." }
     ],
-    "ctaTitle": "Scarica l'app dal 1 maggio",
+    "ctaTitle": "Scarica l'app ora",
     "ctaSubtitle": "Sii tra i primi a vivere il beauty delivery in Italia."
   },
   "pros": {

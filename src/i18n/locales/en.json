@@ -18,10 +18,10 @@
     "joinPros": "Become one of the first GlamPros",
     "downloadApp": "Download the app",
     "workWithUs": "Work with us",
-    "downloadMay": "Download the app from May 1"
+    "downloadMay": "Download the app now"
   },
   "home": {
-    "announce": "Available across Italy from May 1 🇮🇹",
+    "announce": "Available across Italy 🇮🇹",
     "tagline": "Italy's first beauty delivery",
     "subtitle": "Book the best hairdressers, barbers, estheticians, make-up artists and massage therapists, wherever you are. In just a few taps.",
     "marquee": "Hairdressers · Barbers · Estheticians · Make-up Artists · Massage Therapists",
@@ -79,7 +79,7 @@
     },
     "finalCta": {
       "title": "Your beauty, finally, just one tap away.",
-      "subtitle": "Download Glamro from May 1 and join the beauty delivery revolution."
+      "subtitle": "Download Glamro now and join the beauty delivery revolution."
     }
   },
   "clients": {
@@ -96,7 +96,7 @@
       { "title": "Available on weekends too", "desc": "Saturday, Sunday and extended hours to fit your life." },
       { "title": "Beauty on demand", "desc": "The salon comes to you, not the other way around." }
     ],
-    "ctaTitle": "Download the app from May 1",
+    "ctaTitle": "Download the app now",
     "ctaSubtitle": "Be among the first to experience beauty delivery in Italy."
   },
   "pros": {
