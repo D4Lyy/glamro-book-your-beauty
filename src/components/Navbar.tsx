@@ -24,6 +24,7 @@ export const Navbar = () => {
     { to: "/", label: t("nav.home") },
     { to: "/clients", label: t("nav.clients") },
     { to: "/professionals", label: t("nav.pros") },
+    { to: "/lavora-con-noi", label: t("nav.work") },
     { to: "/about", label: t("nav.about") },
     { to: "/faq", label: t("nav.faq") },
     { to: "/contact", label: t("nav.contact") },
