@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { SectionHeading } from "@/components/SectionHeading";
+import { Seo } from "@/components/Seo";
 
 const About = () => {
   const { t } = useTranslation();
@@ -9,6 +10,11 @@ const About = () => {
 
   return (
     <>
+      <Seo
+        title="Chi siamo — Glamro, il beauty delivery in Italia"
+        description={t("about.lead")}
+        path="/about"
+      />
       <section className="container mx-auto py-20 md:py-32">
         <SectionHeading kicker={t("about.kicker")} title={t("about.title")} />
         <motion.p
