@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/SectionHeading";
 import { AppStoreButtons } from "@/components/AppStoreButtons";
 import { Button } from "@/components/ui/button";
 import { ExternalLink } from "lucide-react";
+import { Seo } from "@/components/Seo";
 
 interface OnboardingStep {
   title: string;
@@ -22,6 +23,9 @@ interface Props {
   kicker: string;
   title: string;
   subtitle: string;
+  seoTitle: string;
+  seoDescription: string;
+  path: string;
   features: Array<{ title: string; desc: string }>;
   onboarding?: { kicker: string; title: string; steps: OnboardingStep[] };
   ecosystem?: string;
@@ -31,8 +35,9 @@ interface Props {
   appKind?: "client" | "pro";
 }
 
-const FeaturePage = ({ kicker, title, subtitle, features, onboarding, ecosystem, partners, ctaTitle, ctaSubtitle, appKind = "client" }: Props) => (
+const FeaturePage = ({ kicker, title, subtitle, seoTitle, seoDescription, path, features, onboarding, ecosystem, partners, ctaTitle, ctaSubtitle, appKind = "client" }: Props) => (
   <>
+    <Seo title={seoTitle} description={seoDescription} path={path} />
     <section className="container mx-auto py-20 md:py-32">
       <SectionHeading kicker={kicker} title={title} subtitle={subtitle} />
       <div className="mt-8">
@@ -150,6 +155,9 @@ export const ClientsPage = () => {
       kicker={t("clients.kicker")}
       title={t("clients.title")}
       subtitle={t("clients.subtitle")}
+      seoTitle="Per i clienti — Prenota beauty a domicilio | Glamro"
+      seoDescription={t("clients.subtitle")}
+      path="/clients"
       features={t("clients.features", { returnObjects: true }) as Array<{ title: string; desc: string }>}
       ctaTitle={t("clients.ctaTitle")}
       ctaSubtitle={t("clients.ctaSubtitle")}
@@ -164,6 +172,9 @@ export const ProsPage = () => {
       kicker={t("pros.kicker")}
       title={t("pros.title")}
       subtitle={t("pros.subtitle")}
+      seoTitle="Per i professionisti — App per parrucchieri ed estetiste | Glamro"
+      seoDescription={t("pros.subtitle")}
+      path="/professionals"
       features={t("pros.features", { returnObjects: true }) as Array<{ title: string; desc: string }>}
       appKind="pro"
       onboarding={{
