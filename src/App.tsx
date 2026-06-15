@@ -9,6 +9,11 @@ import { ClientsPage, ProsPage } from "./pages/FeaturePage.tsx";
 import About from "./pages/About.tsx";
 import FAQ from "./pages/FAQ.tsx";
 import Contact from "./pages/Contact.tsx";
+import LavoraConNoi from "./pages/LavoraConNoi.tsx";
+import Candidatura from "./pages/Candidatura.tsx";
+import Consulenza from "./pages/Consulenza.tsx";
+import ServiceLanding from "./pages/ServiceLanding.tsx";
+import CityLanding from "./pages/CityLanding.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import Privacy from "./pages/legal/Privacy.tsx";
 import CookiePolicy from "./pages/legal/CookiePolicy.tsx";
@@ -28,6 +33,11 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/clients" element={<ClientsPage />} />
             <Route path="/professionals" element={<ProsPage />} />
+            <Route path="/lavora-con-noi" element={<LavoraConNoi />} />
+            <Route path="/candidatura-professionisti" element={<Candidatura />} />
+            <Route path="/prenota-consulenza" element={<Consulenza />} />
+            <Route path="/servizi/:slug" element={<ServiceLanding />} />
+            <Route path="/citta/:slug" element={<CityLanding />} />
             <Route path="/about" element={<About />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contact" element={<Contact />} />

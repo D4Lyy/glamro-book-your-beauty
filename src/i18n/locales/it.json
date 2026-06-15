@@ -6,7 +6,8 @@
     "about": "Chi Siamo",
     "faq": "FAQ",
     "contact": "Contatti",
-    "download": "Scarica l'app"
+    "download": "Scarica l'app",
+    "work": "Lavora con noi"
   },
   "cta": {
     "appStore": "Scarica su App Store",
@@ -18,49 +19,103 @@
     "joinPros": "Diventa uno dei primi GlamPro",
     "downloadApp": "Scarica l'app",
     "workWithUs": "Lavora con noi",
-    "downloadMay": "Scarica l'app ora"
+    "downloadMay": "Scarica l'app ora",
+    "bookConsult": "Prenota una consulenza",
+    "freeConsult": "Prenota la tua consulenza gratuita",
+    "apply": "Candidati come professionista",
+    "applyShort": "Candidati",
+    "discoverMore": "Scopri di più",
+    "downloadClientApp": "Scarica l'app Glamro"
   },
   "home": {
     "announce": "Disponibile in tutta Italia 🇮🇹",
-    "tagline": "Il primo beauty delivery in Italia",
-    "subtitle": "Prenota i migliori parrucchieri, barbieri, estetiste, make-up artist e massaggiatori, ovunque tu sia. In pochi tap.",
+    "tagline": "Glamro, il primo beauty delivery in Italia",
+    "subtitle": "Prenota parrucchieri, estetiste, make-up artist e massaggiatori a domicilio, direttamente dall'app.",
     "marquee": "Parrucchieri · Barbieri · Estetiste · Make-up Artist · Massaggiatori",
     "trust": {
       "items": [
-        { "title": "Professionisti verificati", "desc": "Selezionati uno a uno dal nostro team." },
-        { "title": "Pagamenti sicuri", "desc": "Direttamente in app, senza pensieri." },
-        { "title": "Prenotazione immediata", "desc": "Confermi in pochi secondi." },
-        { "title": "Servizio dove vuoi", "desc": "A casa, in hotel o per eventi." }
+        {
+          "title": "Professionisti verificati",
+          "desc": "Selezionati uno a uno dal nostro team."
+        },
+        {
+          "title": "Pagamenti sicuri",
+          "desc": "Direttamente in app, senza pensieri."
+        },
+        {
+          "title": "Prenotazione immediata",
+          "desc": "Confermi in pochi secondi."
+        },
+        {
+          "title": "Servizio dove vuoi",
+          "desc": "A casa, in hotel o per eventi."
+        }
       ]
     },
     "how": {
       "kicker": "Come funziona",
       "title": "Tre tap, e sei pronto.",
       "steps": [
-        { "title": "Scegli il servizio", "desc": "Parrucchieri, Barbieri, Estetiste, Make-up Artist o Massaggiatori." },
-        { "title": "Scegli il professionista", "desc": "Confronta profili, recensioni e prezzi." },
-        { "title": "Prenota dove e quando vuoi", "desc": "Conferma in app, lui viene da te." }
+        {
+          "title": "Scegli il servizio",
+          "desc": "Parrucchieri, Barbieri, Estetiste, Make-up Artist o Massaggiatori."
+        },
+        {
+          "title": "Scegli il professionista",
+          "desc": "Confronta profili, recensioni e prezzi."
+        },
+        {
+          "title": "Prenota dove e quando vuoi",
+          "desc": "Conferma in app, lui viene da te."
+        }
       ]
     },
     "services": {
       "kicker": "Servizi",
       "title": "Tutto il beauty, in un'unica app.",
       "items": [
-        { "name": "Parrucchieri", "desc": "Tagli, piega, colore, trattamenti." },
-        { "name": "Barbieri", "desc": "Barba, rasatura, styling maschile." },
-        { "name": "Estetiste", "desc": "Estetica viso e corpo, manicure, pedicure." },
-        { "name": "Make-up Artist", "desc": "Per ogni occasione, evento o cerimonia." },
-        { "name": "Massaggiatori", "desc": "Massaggi rilassanti, sportivi e wellness." }
+        {
+          "name": "Parrucchieri",
+          "desc": "Tagli, piega, colore, trattamenti."
+        },
+        {
+          "name": "Barbieri",
+          "desc": "Barba, rasatura, styling maschile."
+        },
+        {
+          "name": "Estetiste",
+          "desc": "Estetica viso e corpo, manicure, pedicure."
+        },
+        {
+          "name": "Make-up Artist",
+          "desc": "Per ogni occasione, evento o cerimonia."
+        },
+        {
+          "name": "Massaggiatori",
+          "desc": "Massaggi rilassanti, sportivi e wellness."
+        }
       ]
     },
     "whySection": {
       "kicker": "Perché Glamro",
       "title": "Il beauty, finalmente come lo vuoi tu.",
       "items": [
-        { "title": "Comodità totale", "desc": "Niente spostamenti, niente attese: il professionista viene da te." },
-        { "title": "Zero attese", "desc": "Prenoti, confermi, ricevi. Senza telefonate o code." },
-        { "title": "Professionisti selezionati", "desc": "Solo i migliori, verificati e recensiti dalla community." },
-        { "title": "Domicilio, hotel, eventi", "desc": "A casa tua, in vacanza o per occasioni speciali." }
+        {
+          "title": "Comodità totale",
+          "desc": "Niente spostamenti, niente attese: il professionista viene da te."
+        },
+        {
+          "title": "Zero attese",
+          "desc": "Prenoti, confermi, ricevi. Senza telefonate o code."
+        },
+        {
+          "title": "Professionisti selezionati",
+          "desc": "Solo i migliori, verificati e recensiti dalla community."
+        },
+        {
+          "title": "Domicilio, hotel, eventi",
+          "desc": "A casa tua, in vacanza o per occasioni speciali."
+        }
       ]
     },
     "vision": {
@@ -72,14 +127,62 @@
       "kicker": "Roadmap",
       "title": "La strada verso il lancio",
       "items": [
-        { "date": "🚀 Maggio 2026", "title": "Lancio ufficiale in tutta Italia", "desc": "Glamro disponibile su App Store e Google Play in tutto il territorio nazionale." },
-        { "date": "👕 Prossimamente", "title": "Espansione merchandising professionisti", "desc": "Linea dedicata per i GlamPro, con strumenti e brand identity." },
-        { "date": "🛍️ Prossimamente", "title": "Apertura e-commerce", "desc": "Prodotti e servizi per professionisti e clienti, direttamente in app." }
+        {
+          "date": "🚀 Maggio 2026",
+          "title": "Lancio ufficiale in tutta Italia",
+          "desc": "Glamro disponibile su App Store e Google Play in tutto il territorio nazionale."
+        },
+        {
+          "date": "👕 Prossimamente",
+          "title": "Espansione merchandising professionisti",
+          "desc": "Linea dedicata per i GlamPro, con strumenti e brand identity."
+        },
+        {
+          "date": "🛍️ Prossimamente",
+          "title": "Apertura e-commerce",
+          "desc": "Prodotti e servizi per professionisti e clienti, direttamente in app."
+        }
       ]
     },
     "finalCta": {
       "title": "La tua bellezza, finalmente, a un solo tap.",
       "subtitle": "Scarica Glamro ora e unisciti alla rivoluzione del beauty delivery."
+    },
+    "whatIs": {
+      "kicker": "Cos'è Glamro",
+      "title": "La piattaforma che porta il beauty a casa tua",
+      "body": "Glamro è la piattaforma che connette clienti e professionisti del beauty per servizi a domicilio — e, in futuro, anche in salone. Parrucchieri, estetiste, make-up artist e massaggiatori verificati, a portata di tap."
+    },
+    "forClients": {
+      "kicker": "Per i clienti",
+      "title": "Prenota servizi beauty a domicilio in pochi tap",
+      "body": "Scegli il servizio, confronta i professionisti e prenota dove e quando vuoi. Il salone arriva da te, a casa, in hotel o in ufficio.",
+      "cta": "Scarica l'app Glamro"
+    },
+    "forPros": {
+      "kicker": "Per professionisti, saloni e centri estetici",
+      "title": "Aumenta visibilità, clienti e prenotazioni",
+      "body": "Glamro aiuta parrucchieri, estetiste, make-up artist, massaggiatori, saloni e centri estetici a farsi trovare da nuovi clienti e a riempire l'agenda.",
+      "ctaApply": "Candidati come professionista",
+      "ctaWork": "Lavora con noi"
+    },
+    "consult": {
+      "kicker": "Prenota una consulenza",
+      "title": "Hai dubbi prima di entrare in piattaforma?",
+      "body": "Parla con il nostro team prima di iniziare: dubbi su documenti, Partita IVA, assicurazione, conto business, caricamento documenti e funzionamento dell'app. Ti guidiamo passo dopo passo.",
+      "cta": "Prenota la tua consulenza gratuita"
+    },
+    "citiesSection": {
+      "kicker": "Città e zone",
+      "title": "Dove stiamo partendo",
+      "body": "Glamro sta crescendo città per città. Ecco dove stiamo attivando la rete di professionisti beauty a domicilio."
+    },
+    "servicesCta": "Scopri",
+    "faqTeaser": {
+      "kicker": "FAQ",
+      "title": "Domande frequenti",
+      "body": "Come funziona Glamro, come candidarti, quali documenti servono e molto altro.",
+      "cta": "Vai alle FAQ"
     }
   },
   "clients": {
@@ -87,14 +190,38 @@
     "title": "Perché prenotare con Glamro",
     "subtitle": "Il tuo salone, dove e quando vuoi. Trova il professionista giusto, prenota in pochi tap e ricevi il servizio direttamente a casa, in ufficio o in hotel.",
     "features": [
-      { "title": "Prenota in pochi tap", "desc": "Filtra per servizio, zona, prezzo e disponibilità. Conferma in un attimo." },
-      { "title": "Professionisti verificati", "desc": "Ogni professionista è certificato e selezionato dal nostro team." },
-      { "title": "Dove vuoi, quando vuoi", "desc": "A casa, in hotel, in ufficio o per eventi: il professionista viene da te." },
-      { "title": "Pagamenti sicuri", "desc": "Paga in app in totale sicurezza. Nessun contante, nessun pensiero." },
-      { "title": "Recensioni trasparenti", "desc": "Scegli con fiducia grazie alle valutazioni reali della community." },
-      { "title": "Supporto Glamro", "desc": "Un team dedicato, sempre pronto ad aiutarti per ogni esigenza." },
-      { "title": "Disponibile anche weekend", "desc": "Sabato, domenica e fasce orarie estese per adattarsi alla tua vita." },
-      { "title": "Beauty on demand", "desc": "Il salone arriva da te, non più il contrario." }
+      {
+        "title": "Prenota in pochi tap",
+        "desc": "Filtra per servizio, zona, prezzo e disponibilità. Conferma in un attimo."
+      },
+      {
+        "title": "Professionisti verificati",
+        "desc": "Ogni professionista è certificato e selezionato dal nostro team."
+      },
+      {
+        "title": "Dove vuoi, quando vuoi",
+        "desc": "A casa, in hotel, in ufficio o per eventi: il professionista viene da te."
+      },
+      {
+        "title": "Pagamenti sicuri",
+        "desc": "Paga in app in totale sicurezza. Nessun contante, nessun pensiero."
+      },
+      {
+        "title": "Recensioni trasparenti",
+        "desc": "Scegli con fiducia grazie alle valutazioni reali della community."
+      },
+      {
+        "title": "Supporto Glamro",
+        "desc": "Un team dedicato, sempre pronto ad aiutarti per ogni esigenza."
+      },
+      {
+        "title": "Disponibile anche weekend",
+        "desc": "Sabato, domenica e fasce orarie estese per adattarsi alla tua vita."
+      },
+      {
+        "title": "Beauty on demand",
+        "desc": "Il salone arriva da te, non più il contrario."
+      }
     ],
     "ctaTitle": "Scarica l'app ora",
     "ctaSubtitle": "Sii tra i primi a vivere il beauty delivery in Italia."
@@ -104,23 +231,59 @@
     "title": "Trasforma il tuo talento in business con Glamro",
     "subtitle": "Diventa parte di una community in crescita. Ricevi prenotazioni, gestisci la tua agenda e amplia il tuo bacino di clienti.",
     "features": [
-      { "title": "Più clienti, meno pensieri", "desc": "Lasciaci la promozione. Tu pensa solo a fare quello che ami." },
-      { "title": "Agenda intelligente", "desc": "Gestisci appuntamenti, disponibilità e spostamenti da un'unica app." },
-      { "title": "Pagamenti automatici", "desc": "Ricevi i pagamenti direttamente sul tuo conto. Niente insoluti." },
-      { "title": "Profilo professionale verificato", "desc": "Mostra il tuo lavoro con foto, servizi e prezzi personalizzati." },
-      { "title": "Crescita e strumenti", "desc": "Recensioni, statistiche e strumenti per migliorare ogni giorno." },
-      { "title": "Supporto dedicato", "desc": "Un team interamente dedicato ai professionisti, sempre al tuo fianco." },
-      { "title": "Commissioni trasparenti", "desc": "Nessuna sorpresa: condizioni chiare e visibili in ogni momento." },
-      { "title": "Lavora quando vuoi", "desc": "Gestisci la tua disponibilità in totale libertà, senza vincoli." }
+      {
+        "title": "Più clienti, meno pensieri",
+        "desc": "Lasciaci la promozione. Tu pensa solo a fare quello che ami."
+      },
+      {
+        "title": "Agenda intelligente",
+        "desc": "Gestisci appuntamenti, disponibilità e spostamenti da un'unica app."
+      },
+      {
+        "title": "Pagamenti automatici",
+        "desc": "Ricevi i pagamenti direttamente sul tuo conto. Niente insoluti."
+      },
+      {
+        "title": "Profilo professionale verificato",
+        "desc": "Mostra il tuo lavoro con foto, servizi e prezzi personalizzati."
+      },
+      {
+        "title": "Crescita e strumenti",
+        "desc": "Recensioni, statistiche e strumenti per migliorare ogni giorno."
+      },
+      {
+        "title": "Supporto dedicato",
+        "desc": "Un team interamente dedicato ai professionisti, sempre al tuo fianco."
+      },
+      {
+        "title": "Commissioni trasparenti",
+        "desc": "Nessuna sorpresa: condizioni chiare e visibili in ogni momento."
+      },
+      {
+        "title": "Lavora quando vuoi",
+        "desc": "Gestisci la tua disponibilità in totale libertà, senza vincoli."
+      }
     ],
     "onboarding": {
       "kicker": "Onboarding",
       "title": "Come iniziare in 4 step",
       "steps": [
-        { "title": "Registrati", "desc": "Scarica l'app GlamPro e crea il tuo account." },
-        { "title": "Verifica profilo", "desc": "Carica documenti, certificazioni e portfolio." },
-        { "title": "Attiva disponibilità", "desc": "Imposta orari, zone e servizi offerti." },
-        { "title": "Ricevi prenotazioni", "desc": "Inizia a lavorare con nuovi clienti, fin da subito." }
+        {
+          "title": "Registrati",
+          "desc": "Scarica l'app GlamPro e crea il tuo account."
+        },
+        {
+          "title": "Verifica profilo",
+          "desc": "Carica documenti, certificazioni e portfolio."
+        },
+        {
+          "title": "Attiva disponibilità",
+          "desc": "Imposta orari, zone e servizi offerti."
+        },
+        {
+          "title": "Ricevi prenotazioni",
+          "desc": "Inizia a lavorare con nuovi clienti, fin da subito."
+        }
       ]
     },
     "ecosystem": "Non solo una piattaforma. Un ecosistema per professionisti beauty.",
@@ -128,9 +291,27 @@
       "kicker": "Servizi Partner",
       "title": "Tutto ciò che ti serve per avviare la tua attività.",
       "items": [
-        { "name": "Fiscozen", "desc": "Aiuto per la partita IVA e la gestione fiscale.", "cta": "Inizia ora", "url": "https://www.fiscozen.it/promo/partner/", "image": "/images/fiscozen.jpg" },
-        { "name": "Lokky", "desc": "Assicurazione per la tua attività e la tua azienda.", "cta": "Assicurati", "url": "https://www.lokky.it/glamro/", "image" : "/images/lokky.png" },
-        { "name": "Finom", "desc": "Apertura conto aziendale e business banking.", "cta": "Apri conto", "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH", "image": "/images/finom.jpeg" }
+        {
+          "name": "Fiscozen",
+          "desc": "Aiuto per la partita IVA e la gestione fiscale.",
+          "cta": "Inizia ora",
+          "url": "https://www.fiscozen.it/promo/partner/",
+          "image": "/images/fiscozen.jpg"
+        },
+        {
+          "name": "Lokky",
+          "desc": "Assicurazione per la tua attività e la tua azienda.",
+          "cta": "Assicurati",
+          "url": "https://www.lokky.it/glamro/",
+          "image": "/images/lokky.png"
+        },
+        {
+          "name": "Finom",
+          "desc": "Apertura conto aziendale e business banking.",
+          "cta": "Apri conto",
+          "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH",
+          "image": "/images/finom.jpeg"
+        }
       ]
     },
     "ctaTitle": "Diventa uno dei primi GlamPro",
@@ -150,9 +331,18 @@
       "title": "Più di una piattaforma. Un ecosistema di crescita.",
       "body": "Con Glamro i professionisti ottengono:",
       "highlights": [
-        { "title": "Più guadagni", "desc": "Nuovi clienti, ogni giorno." },
-        { "title": "Più visibilità", "desc": "Costruisci il tuo personal brand." },
-        { "title": "Più libertà", "desc": "Lavora come, dove e quando vuoi." }
+        {
+          "title": "Più guadagni",
+          "desc": "Nuovi clienti, ogni giorno."
+        },
+        {
+          "title": "Più visibilità",
+          "desc": "Costruisci il tuo personal brand."
+        },
+        {
+          "title": "Più libertà",
+          "desc": "Lavora come, dove e quando vuoi."
+        }
       ],
       "body2": "Dagli eventi agli hotel, fino a nuove opportunità di formazione e crescita: Glamro non offre solo servizi, crea possibilità.",
       "closing": ""
@@ -160,11 +350,26 @@
     "values": {
       "title": "I nostri valori",
       "items": [
-        { "title": "Qualità", "desc": "Professionisti verificati." },
-        { "title": "Fiducia", "desc": "Trasparenza e pagamenti sicuri." },
-        { "title": "Semplicità", "desc": "Comodità per i clienti, esperienza intuitiva." },
-        { "title": "Innovazione", "desc": "Tecnologia al servizio delle persone." },
-        { "title": "Crescita", "desc": "Per clienti, professionisti e per l'intero settore." }
+        {
+          "title": "Qualità",
+          "desc": "Professionisti verificati."
+        },
+        {
+          "title": "Fiducia",
+          "desc": "Trasparenza e pagamenti sicuri."
+        },
+        {
+          "title": "Semplicità",
+          "desc": "Comodità per i clienti, esperienza intuitiva."
+        },
+        {
+          "title": "Innovazione",
+          "desc": "Tecnologia al servizio delle persone."
+        },
+        {
+          "title": "Crescita",
+          "desc": "Per clienti, professionisti e per l'intero settore."
+        }
       ]
     },
     "outro": {
@@ -176,18 +381,54 @@
     "kicker": "FAQ",
     "title": "Domande frequenti",
     "items": [
-      { "q": "Cos'è Glamro?", "a": "Glamro è il primo beauty delivery in Italia: una piattaforma che permette di prenotare professionisti beauty verificati — parrucchieri, barbieri, estetiste, make-up artist e massaggiatori — direttamente dove vuoi, in pochi tap." },
-      { "q": "In quali città sarà disponibile?", "a": "Disponibile in tutta Italia dal lancio, con espansione progressiva della rete di professionisti." },
-      { "q": "Quali servizi posso prenotare?", "a": "Servizi hair, barber, estetica, make-up, massaggi e servizi per eventi e cerimonie, a domicilio o nella location che preferisci." },
-      { "q": "Come vengono selezionati i professionisti?", "a": "I professionisti vengono verificati tramite onboarding, documentazione e controllo profilo, supportati anche da recensioni della community." },
-      { "q": "Sono un professionista, come posso aderire?", "a": "Puoi candidarti tramite l'app GlamPro, completare il profilo professionale e inviare la documentazione richiesta per accedere alla piattaforma." },
-      { "q": "Come funzionano i pagamenti?", "a": "Pagamenti digitali sicuri direttamente in app, con sistema semplice e trasparente per clienti e professionisti." },
-      { "q": "Posso scegliere il professionista?", "a": "Sì, puoi selezionare il professionista in base a recensioni, disponibilità, distanza e prezzo." },
-      { "q": "Posso prenotare per hotel, eventi o occasioni speciali?", "a": "Sì, Glamro nasce per portare i servizi beauty ovunque ne hai bisogno, anche per eventi e location speciali." },
-      { "q": "I professionisti si spostano a domicilio?", "a": "Sì, il professionista raggiunge la location indicata da te." },
-      { "q": "Come posso entrare tra i primi GlamPro?", "a": "Registrati tramite app e richiedi accesso prioritario alla piattaforma." },
-      { "q": "Posso prenotare anche nei weekend o in fasce orarie estese?", "a": "Sì, la disponibilità dipende dai professionisti presenti in piattaforma." },
-      { "q": "I prezzi sono visibili prima della prenotazione?", "a": "Sì, prezzi e servizi sono trasparenti prima della conferma." }
+      {
+        "q": "Cos'è Glamro?",
+        "a": "Glamro è il primo beauty delivery in Italia: una piattaforma che permette di prenotare professionisti beauty verificati — parrucchieri, barbieri, estetiste, make-up artist e massaggiatori — direttamente dove vuoi, in pochi tap."
+      },
+      {
+        "q": "In quali città sarà disponibile?",
+        "a": "Disponibile in tutta Italia dal lancio, con espansione progressiva della rete di professionisti."
+      },
+      {
+        "q": "Quali servizi posso prenotare?",
+        "a": "Servizi hair, barber, estetica, make-up, massaggi e servizi per eventi e cerimonie, a domicilio o nella location che preferisci."
+      },
+      {
+        "q": "Come vengono selezionati i professionisti?",
+        "a": "I professionisti vengono verificati tramite onboarding, documentazione e controllo profilo, supportati anche da recensioni della community."
+      },
+      {
+        "q": "Sono un professionista, come posso aderire?",
+        "a": "Puoi candidarti tramite l'app GlamPro, completare il profilo professionale e inviare la documentazione richiesta per accedere alla piattaforma."
+      },
+      {
+        "q": "Come funzionano i pagamenti?",
+        "a": "Pagamenti digitali sicuri direttamente in app, con sistema semplice e trasparente per clienti e professionisti."
+      },
+      {
+        "q": "Posso scegliere il professionista?",
+        "a": "Sì, puoi selezionare il professionista in base a recensioni, disponibilità, distanza e prezzo."
+      },
+      {
+        "q": "Posso prenotare per hotel, eventi o occasioni speciali?",
+        "a": "Sì, Glamro nasce per portare i servizi beauty ovunque ne hai bisogno, anche per eventi e location speciali."
+      },
+      {
+        "q": "I professionisti si spostano a domicilio?",
+        "a": "Sì, il professionista raggiunge la location indicata da te."
+      },
+      {
+        "q": "Come posso entrare tra i primi GlamPro?",
+        "a": "Registrati tramite app e richiedi accesso prioritario alla piattaforma."
+      },
+      {
+        "q": "Posso prenotare anche nei weekend o in fasce orarie estese?",
+        "a": "Sì, la disponibilità dipende dai professionisti presenti in piattaforma."
+      },
+      {
+        "q": "I prezzi sono visibili prima della prenotazione?",
+        "a": "Sì, prezzi e servizi sono trasparenti prima della conferma."
+      }
     ]
   },
   "contact": {
@@ -200,9 +441,21 @@
       "cta": "Prenota la call"
     },
     "channels": [
-      { "icon": "mail", "label": "Contatti generali & Partnership", "value": "contact@glamro.it" },
-      { "icon": "megaphone", "label": "Social & Marketing", "value": "marketing@glamro.it" },
-      { "icon": "headset", "label": "Supporto clienti e professionisti", "value": "support@glamro.it" }
+      {
+        "icon": "mail",
+        "label": "Contatti generali & Partnership",
+        "value": "contact@glamro.it"
+      },
+      {
+        "icon": "megaphone",
+        "label": "Social & Marketing",
+        "value": "marketing@glamro.it"
+      },
+      {
+        "icon": "headset",
+        "label": "Supporto clienti e professionisti",
+        "value": "support@glamro.it"
+      }
     ],
     "form": {
       "name": "Nome",
@@ -245,5 +498,232 @@
     "capital": "Capitale sociale",
     "phone": "Telefono",
     "website": "Sito web"
+  },
+  "services": {
+    "parrucchiere": {
+      "name": "Parrucchiere a domicilio",
+      "metaTitle": "Parrucchiere a domicilio | Prenota su Glamro",
+      "metaDescription": "Prenota un parrucchiere a domicilio con Glamro: taglio, piega, colore e trattamenti a casa tua. Beauty delivery in tutta Italia.",
+      "kicker": "Servizi",
+      "h1": "Parrucchiere a domicilio",
+      "intro": "Con Glamro prenoti un parrucchiere a domicilio in pochi tap: taglio, piega, colore e trattamenti, direttamente a casa tua, in hotel o in ufficio.",
+      "bullets": [
+        "Taglio, piega e styling",
+        "Colore, balayage e trattamenti",
+        "Professionisti verificati e recensiti",
+        "Prenotazione e pagamento sicuro in app"
+      ],
+      "seoBody": "Glamro è il primo beauty delivery in Italia. Cerchi un parrucchiere a domicilio vicino a te? Scarica l'app e scegli il professionista giusto in base a recensioni, disponibilità e prezzo, ovunque tu sia.",
+      "faq": [
+        {
+          "q": "Quanto costa un parrucchiere a domicilio?",
+          "a": "Il prezzo è trasparente e visibile in app prima della prenotazione: ogni professionista imposta i propri servizi e tariffe."
+        },
+        {
+          "q": "Come prenoto un parrucchiere a domicilio?",
+          "a": "Scarica l'app Glamro, scegli il servizio, seleziona il professionista e conferma data, ora e luogo."
+        }
+      ]
+    },
+    "estetista": {
+      "name": "Estetista a domicilio",
+      "metaTitle": "Estetista a domicilio | Prenota su Glamro",
+      "metaDescription": "Prenota un'estetista a domicilio con Glamro: manicure, pedicure, trattamenti viso e corpo a casa tua. Beauty delivery in Italia.",
+      "kicker": "Servizi",
+      "h1": "Estetista a domicilio",
+      "intro": "Con Glamro prenoti un'estetista a domicilio in pochi tap: manicure, pedicure, trattamenti viso e corpo, direttamente dove vuoi.",
+      "bullets": [
+        "Manicure e pedicure",
+        "Trattamenti viso e corpo",
+        "Professioniste verificate e recensite",
+        "Prenotazione e pagamento sicuro in app"
+      ],
+      "seoBody": "Glamro è il primo beauty delivery in Italia. Cerchi un'estetista a domicilio vicino a te? Scarica l'app e scegli la professionista giusta in base a recensioni, disponibilità e prezzo.",
+      "faq": [
+        {
+          "q": "Quali trattamenti posso prenotare?",
+          "a": "Manicure, pedicure, trattamenti estetici viso e corpo e molto altro, in base ai servizi offerti da ogni professionista."
+        },
+        {
+          "q": "L'estetista viene a casa mia?",
+          "a": "Sì, il servizio è a domicilio: la professionista raggiunge la location che indichi in fase di prenotazione."
+        }
+      ]
+    },
+    "makeup": {
+      "name": "Make-up artist a domicilio",
+      "metaTitle": "Make-up artist a domicilio | Prenota su Glamro",
+      "metaDescription": "Prenota un make-up artist a domicilio con Glamro: trucco per eventi, cerimonie e shooting a casa tua. Beauty delivery in Italia.",
+      "kicker": "Servizi",
+      "h1": "Make-up artist a domicilio",
+      "intro": "Con Glamro prenoti un make-up artist a domicilio in pochi tap: trucco per eventi, cerimonie, shooting o per ogni occasione, direttamente dove vuoi.",
+      "bullets": [
+        "Trucco per eventi e cerimonie",
+        "Make-up sposa e occasioni speciali",
+        "Make-up artist verificati e recensiti",
+        "Prenotazione e pagamento sicuro in app"
+      ],
+      "seoBody": "Glamro è il primo beauty delivery in Italia. Cerchi un make-up artist a domicilio vicino a te? Scarica l'app e scegli il professionista giusto per il tuo evento.",
+      "faq": [
+        {
+          "q": "Posso prenotare un make-up artist per un matrimonio?",
+          "a": "Sì, puoi prenotare un make-up artist per matrimoni, cerimonie ed eventi, con servizio a domicilio."
+        },
+        {
+          "q": "Come scelgo il make-up artist?",
+          "a": "Confronti profili, portfolio, recensioni e prezzi direttamente in app prima di prenotare."
+        }
+      ]
+    },
+    "massaggiatore": {
+      "name": "Massaggiatore a domicilio",
+      "metaTitle": "Massaggiatore a domicilio | Prenota su Glamro",
+      "metaDescription": "Prenota un massaggiatore a domicilio con Glamro: massaggi rilassanti, sportivi e wellness a casa tua. Beauty delivery in Italia.",
+      "kicker": "Servizi",
+      "h1": "Massaggiatore a domicilio",
+      "intro": "Con Glamro prenoti un massaggiatore a domicilio in pochi tap: massaggi rilassanti, sportivi e wellness, direttamente a casa tua o in hotel.",
+      "bullets": [
+        "Massaggi rilassanti e decontratturanti",
+        "Massaggi sportivi e wellness",
+        "Professionisti verificati e recensiti",
+        "Prenotazione e pagamento sicuro in app"
+      ],
+      "seoBody": "Glamro è il primo beauty delivery in Italia. Cerchi un massaggiatore a domicilio vicino a te? Scarica l'app e scegli il professionista giusto in base a recensioni e disponibilità.",
+      "faq": [
+        {
+          "q": "Che tipo di massaggi posso prenotare?",
+          "a": "Massaggi rilassanti, decontratturanti, sportivi e wellness, in base ai servizi offerti da ogni professionista."
+        },
+        {
+          "q": "Il massaggiatore porta il lettino?",
+          "a": "L'attrezzatura dipende dal professionista: i dettagli del servizio sono indicati nel profilo in app."
+        }
+      ]
+    },
+    "common": {
+      "advantagesTitle": "Perché prenotare con Glamro",
+      "ctaTitle": "Prenota ora con Glamro",
+      "ctaSubtitle": "Scarica l'app e prenota il tuo servizio beauty a domicilio.",
+      "proTitle": "Sei un professionista?",
+      "proBody": "Candidati su Glamro e raggiungi nuovi clienti nella tua zona.",
+      "proCta": "Candidati come professionista",
+      "faqTitle": "Domande frequenti"
+    }
+  },
+  "cityPage": {
+    "kicker": "Città",
+    "metaTitle": "Beauty delivery a {{city}} | Glamro",
+    "metaDescription": "Servizi beauty a domicilio a {{city}}: parrucchiere, estetista, make-up artist e massaggiatore. Prenota su Glamro, il beauty delivery in Italia.",
+    "h1": "Beauty delivery a {{city}}",
+    "intro": "Glamro porta i servizi beauty a domicilio a {{city}}: prenoti parrucchieri, estetiste, make-up artist e massaggiatori verificati, direttamente dall'app.",
+    "body": "Cerchi un parrucchiere a domicilio a {{city}} o un'estetista che venga da te? Con Glamro scegli il professionista giusto in base a recensioni, disponibilità e prezzo, a {{city}} e nella regione {{region}}.",
+    "servicesTitle": "Servizi disponibili a {{city}}",
+    "ctaTitle": "Scarica Glamro a {{city}}",
+    "ctaSubtitle": "Prenota il tuo servizio beauty a domicilio in pochi tap.",
+    "proTitle": "Sei un professionista beauty a {{city}}?",
+    "proBody": "Candidati su Glamro e raggiungi nuovi clienti a {{city}}.",
+    "proCta": "Candidati come professionista"
+  },
+  "lavoraConNoi": {
+    "metaTitle": "Lavora con noi | Glamro per professionisti beauty",
+    "metaDescription": "Diventa un professionista Glamro: parrucchieri, estetiste, make-up artist, massaggiatori, saloni e centri estetici. Più clienti, più prenotazioni.",
+    "kicker": "Lavora con noi",
+    "h1": "Lavora con Glamro",
+    "subtitle": "Più visibilità, più clienti, più prenotazioni per professionisti beauty, saloni e centri estetici.",
+    "intro": "Glamro è il primo beauty delivery in Italia. Aiutiamo parrucchieri, estetiste, make-up artist, massaggiatori, saloni e centri estetici a farsi trovare da nuovi clienti e a far crescere la propria attività.",
+    "benefits": [
+      {
+        "title": "Più clienti",
+        "desc": "Raggiungi nuovi clienti nella tua zona, senza pensare alla promozione."
+      },
+      {
+        "title": "Più visibilità",
+        "desc": "Un profilo professionale con foto, servizi, prezzi e recensioni."
+      },
+      {
+        "title": "Agenda piena",
+        "desc": "Ricevi prenotazioni e gestisci la tua disponibilità in libertà."
+      },
+      {
+        "title": "Pagamenti sicuri",
+        "desc": "Ricevi i pagamenti direttamente, in modo semplice e trasparente."
+      }
+    ],
+    "stepsTitle": "Come iniziare",
+    "steps": [
+      {
+        "title": "Candidati",
+        "desc": "Compila il form di candidatura in pochi minuti."
+      },
+      {
+        "title": "Consulenza",
+        "desc": "Se vuoi, prenoti una consulenza gratuita con il team."
+      },
+      {
+        "title": "Verifica profilo",
+        "desc": "Carichi documenti e completi il profilo professionale."
+      },
+      {
+        "title": "Inizia a lavorare",
+        "desc": "Ricevi prenotazioni dai clienti Glamro."
+      }
+    ],
+    "ctaApply": "Candidati come professionista",
+    "ctaConsult": "Prenota una consulenza"
+  },
+  "candidatura": {
+    "metaTitle": "Candidati come professionista | Glamro",
+    "metaDescription": "Candidati come professionista beauty su Glamro: parrucchieri, estetiste, make-up artist, massaggiatori, saloni e centri estetici.",
+    "kicker": "Candidatura",
+    "h1": "Candidati come professionista",
+    "subtitle": "Compila il form: ti ricontatteremo per completare l'onboarding su Glamro.",
+    "form": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "phone": "Telefono",
+      "email": "Email",
+      "profession": "Professione",
+      "professionPlaceholder": "Seleziona",
+      "professions": {
+        "parrucchiere": "Parrucchiere / Barbiere",
+        "estetista": "Estetista",
+        "makeup": "Make-up artist",
+        "massaggiatore": "Massaggiatore",
+        "salone": "Salone / Centro estetico",
+        "altro": "Altro"
+      },
+      "city": "Città",
+      "social": "Link Instagram / TikTok",
+      "availability": "Disponibile a fare una consulenza conoscitiva?",
+      "availabilityYes": "Sì",
+      "availabilityNo": "No",
+      "documents": "Documenti già disponibili (facoltativo)",
+      "documentsPlaceholder": "Es. Partita IVA, assicurazione, certificazioni...",
+      "submit": "Invia candidatura",
+      "success": "Candidatura inviata! Ti ricontatteremo a breve.",
+      "error": "Qualcosa è andato storto. Riprova più tardi."
+    },
+    "consultBanner": {
+      "title": "Hai dei dubbi prima di candidarti?",
+      "body": "Prenota una consulenza gratuita con il team Glamro.",
+      "cta": "Prenota una consulenza"
+    }
+  },
+  "consulenza": {
+    "metaTitle": "Prenota una consulenza gratuita | Glamro",
+    "metaDescription": "Hai dubbi su Glamro, documenti o caricamento in app? Prenota una consulenza gratuita con il team Glamro.",
+    "kicker": "Consulenza",
+    "h1": "Prenota una consulenza gratuita",
+    "body": "Hai dubbi su Glamro, documenti o caricamento in app? Prenota una consulenza gratuita con il team e ti guideremo passo dopo passo.",
+    "pointsTitle": "Di cosa possiamo parlare",
+    "points": [
+      "Funzionamento dell'app e della piattaforma",
+      "Partita IVA e aspetti fiscali",
+      "Assicurazione professionale",
+      "Apertura conto business",
+      "Caricamento documenti e onboarding",
+      "Opportunità per professionisti e saloni"
+    ],
+    "cta": "Prenota ora"
   }
 }

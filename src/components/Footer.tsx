@@ -4,6 +4,7 @@ import { Instagram, Linkedin, Facebook, Youtube } from "lucide-react";
 import { FaXTwitter, FaTiktok } from "react-icons/fa6";
 import { Logo } from "./Logo";
 import { AppStoreButtons } from "./AppStoreButtons";
+import { SERVICES } from "@/lib/site";
 
 export const Footer = () => {
   const { t } = useTranslation();
@@ -12,7 +13,7 @@ export const Footer = () => {
   return (
     <footer className="border-t border-border mt-32 relative">
       <div className="container mx-auto py-16">
-        <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
+        <div className="grid gap-12 lg:grid-cols-[1.5fr_1fr_1fr_1fr_1fr]">
           <div className="space-y-6">
             <Logo />
             <p className="text-muted-foreground max-w-xs text-sm leading-relaxed">
@@ -26,7 +27,21 @@ export const Footer = () => {
             <ul className="space-y-2.5 text-sm">
               <li><Link to="/clients" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.clients")}</Link></li>
               <li><Link to="/professionals" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.pros")}</Link></li>
+              <li><Link to="/lavora-con-noi" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.work")}</Link></li>
+              <li><Link to="/candidatura-professionisti" className="hover:text-foreground transition-colors text-muted-foreground">{t("cta.applyShort")}</Link></li>
+              <li><Link to="/prenota-consulenza" className="hover:text-foreground transition-colors text-muted-foreground">{t("cta.bookConsult")}</Link></li>
               <li><Link to="/faq" className="hover:text-foreground transition-colors text-muted-foreground">{t("nav.faq")}</Link></li>
+            </ul>
+          </div>
+
+          <div className="space-y-4">
+            <h4 className="text-xs uppercase tracking-widest text-muted-foreground">{t("home.services.kicker")}</h4>
+            <ul className="space-y-2.5 text-sm">
+              {SERVICES.map((s) => (
+                <li key={s.slug}>
+                  <Link to={`/servizi/${s.slug}`} className="hover:text-foreground transition-colors text-muted-foreground">{t(`services.${s.key}.name`)}</Link>
+                </li>
+              ))}
             </ul>
           </div>
 

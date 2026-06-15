@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { BsApple, BsGooglePlay } from "react-icons/bs";
+import { track } from "@/lib/analytics";
 
 interface AppStoreButtonsProps {
   className?: string;
@@ -22,14 +23,24 @@ export const AppStoreButtons = ({ className = "", variant = "default", kind = "c
 
   return (
     <div className={`flex flex-wrap items-center gap-3 ${className}`}>
-      <a href={kind === "pro" ? appleProLink : appleClientLink} aria-label={t("cta.appStore")} className={baseClass}>
+      <a
+        href={kind === "pro" ? appleProLink : appleClientLink}
+        aria-label={t("cta.appStore")}
+        className={baseClass}
+        onClick={() => track("download_app", { store: "app_store", app: kind })}
+      >
         <BsApple className={isCompact ? "h-5 w-5" : "h-6 w-6"} />
         <span className="text-left">
           <span className="block text-[10px] uppercase tracking-wider opacity-70">{label}</span>
           <span className={`block font-medium ${isCompact ? "text-sm" : "text-base"}`}>App Store</span>
         </span>
       </a>
-      <a href={kind === "pro" ? googleProLink : googleClientLink} aria-label={t("cta.playStore")} className={baseClass}>
+      <a
+        href={kind === "pro" ? googleProLink : googleClientLink}
+        aria-label={t("cta.playStore")}
+        className={baseClass}
+        onClick={() => track("download_app", { store: "google_play", app: kind })}
+      >
         <BsGooglePlay className={isCompact ? "h-5 w-5" : "h-6 w-6"} />
         <span className="text-left">
           <span className="block text-[10px] uppercase tracking-wider opacity-70">{label}</span>
