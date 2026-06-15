@@ -13,6 +13,8 @@ import {
 } from "@/components/ui/select";
 import { SectionHeading } from "@/components/SectionHeading";
 import { toast } from "sonner";
+import { Seo } from "@/components/Seo";
+import { track } from "@/lib/analytics";
 
 const iconMap = { mail: Mail, megaphone: Megaphone, headset: Headset } as const;
 
@@ -57,6 +59,7 @@ const Contact = () => {
 
       if (response.ok) {
         // 3. Handle Success
+        track("contact_form_submit", { role });
         toast.success(t("contact.form.success"));
         form.reset();
         setRole(""); // Reset the Shadcn Select state
@@ -76,6 +79,11 @@ const Contact = () => {
 
   return (
     <section className="container mx-auto py-20 md:py-32">
+      <Seo
+        title="Contatti — Glamro"
+        description={t("contact.subtitle")}
+        path="/contact"
+      />
       <SectionHeading kicker={t("contact.kicker")} title={t("contact.title")} subtitle={t("contact.subtitle")} />
 
       {/* Webinar / discovery call */}
@@ -83,6 +91,7 @@ const Contact = () => {
         href="https://calendly.com/contact-glamro/supporto-glamro-completa-la-tua-registrazione"
         target="_blank"
         rel="noreferrer"
+        onClick={() => track("cta_book_consult", { from: "contact_page" })}
         className="mt-12 block p-8 md:p-10 rounded-2xl border border-border bg-card hover:border-foreground/40 transition-colors group"
       >
         <div className="flex flex-col md:flex-row md:items-center gap-6">
