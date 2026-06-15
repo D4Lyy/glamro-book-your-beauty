@@ -6,7 +6,8 @@
     "about": "About",
     "faq": "FAQ",
     "contact": "Contact",
-    "download": "Download the app"
+    "download": "Download the app",
+    "work": "Work with us"
   },
   "cta": {
     "appStore": "Download on the App Store",
@@ -18,49 +19,103 @@
     "joinPros": "Become one of the first GlamPros",
     "downloadApp": "Download the app",
     "workWithUs": "Work with us",
-    "downloadMay": "Download the app now"
+    "downloadMay": "Download the app now",
+    "bookConsult": "Book a consultation",
+    "freeConsult": "Book your free consultation",
+    "apply": "Apply as a professional",
+    "applyShort": "Apply",
+    "discoverMore": "Learn more",
+    "downloadClientApp": "Download the Glamro app"
   },
   "home": {
     "announce": "Available across Italy 🇮🇹",
-    "tagline": "Italy's first beauty delivery",
-    "subtitle": "Book the best hairdressers, barbers, estheticians, make-up artists and massage therapists, wherever you are. In just a few taps.",
+    "tagline": "Glamro, the first beauty delivery in Italy",
+    "subtitle": "Book hairdressers, beauticians, make-up artists and masseurs at home, directly from the app.",
     "marquee": "Hairdressers · Barbers · Estheticians · Make-up Artists · Massage Therapists",
     "trust": {
       "items": [
-        { "title": "Verified professionals", "desc": "Hand-picked one by one by our team." },
-        { "title": "Secure payments", "desc": "Straight in the app, no worries." },
-        { "title": "Instant booking", "desc": "Confirm in just a few seconds." },
-        { "title": "Service wherever you want", "desc": "At home, at the hotel or for events." }
+        {
+          "title": "Verified professionals",
+          "desc": "Hand-picked one by one by our team."
+        },
+        {
+          "title": "Secure payments",
+          "desc": "Straight in the app, no worries."
+        },
+        {
+          "title": "Instant booking",
+          "desc": "Confirm in just a few seconds."
+        },
+        {
+          "title": "Service wherever you want",
+          "desc": "At home, at the hotel or for events."
+        }
       ]
     },
     "how": {
       "kicker": "How it works",
       "title": "Three taps and you're set.",
       "steps": [
-        { "title": "Choose the service", "desc": "Hair, Barber, Beauty, Make-up or Massage." },
-        { "title": "Choose the professional", "desc": "Compare profiles, reviews and prices." },
-        { "title": "Book where and when you want", "desc": "Confirm in app — they come to you." }
+        {
+          "title": "Choose the service",
+          "desc": "Hair, Barber, Beauty, Make-up or Massage."
+        },
+        {
+          "title": "Choose the professional",
+          "desc": "Compare profiles, reviews and prices."
+        },
+        {
+          "title": "Book where and when you want",
+          "desc": "Confirm in app — they come to you."
+        }
       ]
     },
     "services": {
       "kicker": "Services",
       "title": "All beauty, in a single app.",
       "items": [
-        { "name": "Hair", "desc": "Cuts, styling, color, treatments." },
-        { "name": "Barber", "desc": "Beard, shave, men's styling." },
-        { "name": "Beauty", "desc": "Face & body care, manicure, pedicure." },
-        { "name": "Make-up", "desc": "For every occasion, event or ceremony." },
-        { "name": "Massage", "desc": "Relaxing, sports and wellness massages." }
+        {
+          "name": "Hair",
+          "desc": "Cuts, styling, color, treatments."
+        },
+        {
+          "name": "Barber",
+          "desc": "Beard, shave, men's styling."
+        },
+        {
+          "name": "Beauty",
+          "desc": "Face & body care, manicure, pedicure."
+        },
+        {
+          "name": "Make-up",
+          "desc": "For every occasion, event or ceremony."
+        },
+        {
+          "name": "Massage",
+          "desc": "Relaxing, sports and wellness massages."
+        }
       ]
     },
     "whySection": {
       "kicker": "Why Glamro",
       "title": "Beauty, finally the way you want it.",
       "items": [
-        { "title": "Total convenience", "desc": "No travel, no waiting: the professional comes to you." },
-        { "title": "Zero waiting", "desc": "Book, confirm, receive. No phone calls, no queues." },
-        { "title": "Selected professionals", "desc": "Only the best, verified and reviewed by the community." },
-        { "title": "Home, hotel, events", "desc": "At your place, on holiday or for special occasions." }
+        {
+          "title": "Total convenience",
+          "desc": "No travel, no waiting: the professional comes to you."
+        },
+        {
+          "title": "Zero waiting",
+          "desc": "Book, confirm, receive. No phone calls, no queues."
+        },
+        {
+          "title": "Selected professionals",
+          "desc": "Only the best, verified and reviewed by the community."
+        },
+        {
+          "title": "Home, hotel, events",
+          "desc": "At your place, on holiday or for special occasions."
+        }
       ]
     },
     "vision": {
@@ -72,14 +127,62 @@
       "kicker": "Roadmap",
       "title": "The road to launch",
       "items": [
-        { "date": "🚀 May 2026", "title": "Official launch across Italy", "desc": "Glamro available on App Store and Google Play nationwide." },
-        { "date": "👕 Soon", "title": "Professionals merchandising expansion", "desc": "A dedicated line for GlamPros, with tools and brand identity." },
-        { "date": "🛍️ Soon", "title": "E-commerce launch", "desc": "Products and services for professionals and clients, right in the app." }
+        {
+          "date": "🚀 May 2026",
+          "title": "Official launch across Italy",
+          "desc": "Glamro available on App Store and Google Play nationwide."
+        },
+        {
+          "date": "👕 Soon",
+          "title": "Professionals merchandising expansion",
+          "desc": "A dedicated line for GlamPros, with tools and brand identity."
+        },
+        {
+          "date": "🛍️ Soon",
+          "title": "E-commerce launch",
+          "desc": "Products and services for professionals and clients, right in the app."
+        }
       ]
     },
     "finalCta": {
       "title": "Your beauty, finally, just one tap away.",
       "subtitle": "Download Glamro now and join the beauty delivery revolution."
+    },
+    "whatIs": {
+      "kicker": "What is Glamro",
+      "title": "The platform that brings beauty to your home",
+      "body": "Glamro is the platform that connects clients and beauty professionals for at-home services — and, in the future, in-salon too. Verified hairdressers, beauticians, make-up artists and masseurs, just a tap away."
+    },
+    "forClients": {
+      "kicker": "For clients",
+      "title": "Book beauty services at home in a few taps",
+      "body": "Choose the service, compare professionals and book wherever and whenever you want. The salon comes to you — at home, in a hotel or at the office.",
+      "cta": "Download the Glamro app"
+    },
+    "forPros": {
+      "kicker": "For professionals, salons and beauty centers",
+      "title": "Grow your visibility, clients and bookings",
+      "body": "Glamro helps hairdressers, beauticians, make-up artists, masseurs, salons and beauty centers get found by new clients and fill their calendar.",
+      "ctaApply": "Apply as a professional",
+      "ctaWork": "Work with us"
+    },
+    "consult": {
+      "kicker": "Book a consultation",
+      "title": "Got questions before joining the platform?",
+      "body": "Talk to our team before you start: questions about documents, VAT number, insurance, business account, document upload and how the app works. We guide you step by step.",
+      "cta": "Book your free consultation"
+    },
+    "citiesSection": {
+      "kicker": "Cities & areas",
+      "title": "Where we're starting",
+      "body": "Glamro is growing city by city. Here's where we're activating our network of at-home beauty professionals."
+    },
+    "servicesCta": "Discover",
+    "faqTeaser": {
+      "kicker": "FAQ",
+      "title": "Frequently asked questions",
+      "body": "How Glamro works, how to apply, which documents you need and much more.",
+      "cta": "Go to FAQ"
     }
   },
   "clients": {
@@ -87,14 +190,38 @@
     "title": "Why book with Glamro",
     "subtitle": "Your salon, wherever and whenever. Find the right professional, book in a few taps and get the service right at home, at the office or at your hotel.",
     "features": [
-      { "title": "Book in a few taps", "desc": "Filter by service, zone, price and availability. Confirm in a moment." },
-      { "title": "Verified professionals", "desc": "Every professional is certified and selected by our team." },
-      { "title": "Wherever, whenever", "desc": "At home, hotel, office or events: the professional comes to you." },
-      { "title": "Secure payments", "desc": "Pay in-app safely. No cash, no worries." },
-      { "title": "Transparent reviews", "desc": "Choose with confidence thanks to real community ratings." },
-      { "title": "Glamro support", "desc": "A dedicated team, always ready to help with any need." },
-      { "title": "Available on weekends too", "desc": "Saturday, Sunday and extended hours to fit your life." },
-      { "title": "Beauty on demand", "desc": "The salon comes to you, not the other way around." }
+      {
+        "title": "Book in a few taps",
+        "desc": "Filter by service, zone, price and availability. Confirm in a moment."
+      },
+      {
+        "title": "Verified professionals",
+        "desc": "Every professional is certified and selected by our team."
+      },
+      {
+        "title": "Wherever, whenever",
+        "desc": "At home, hotel, office or events: the professional comes to you."
+      },
+      {
+        "title": "Secure payments",
+        "desc": "Pay in-app safely. No cash, no worries."
+      },
+      {
+        "title": "Transparent reviews",
+        "desc": "Choose with confidence thanks to real community ratings."
+      },
+      {
+        "title": "Glamro support",
+        "desc": "A dedicated team, always ready to help with any need."
+      },
+      {
+        "title": "Available on weekends too",
+        "desc": "Saturday, Sunday and extended hours to fit your life."
+      },
+      {
+        "title": "Beauty on demand",
+        "desc": "The salon comes to you, not the other way around."
+      }
     ],
     "ctaTitle": "Download the app now",
     "ctaSubtitle": "Be among the first to experience beauty delivery in Italy."
@@ -104,23 +231,59 @@
     "title": "Turn your talent into a business with Glamro",
     "subtitle": "Become part of a growing community. Receive bookings, manage your agenda and expand your client base.",
     "features": [
-      { "title": "More clients, less hassle", "desc": "Leave promotion to us. You focus on what you love." },
-      { "title": "Smart agenda", "desc": "Manage appointments, availability and travel from one app." },
-      { "title": "Automatic payments", "desc": "Receive payments directly to your account. No bad debts." },
-      { "title": "Verified professional profile", "desc": "Showcase your work with photos, services and custom prices." },
-      { "title": "Growth & tools", "desc": "Reviews, analytics and tools to improve every day." },
-      { "title": "Dedicated support", "desc": "A team entirely dedicated to professionals, always by your side." },
-      { "title": "Transparent commissions", "desc": "No surprises: clear, always-visible conditions." },
-      { "title": "Work whenever you want", "desc": "Manage your availability in total freedom, no constraints." }
+      {
+        "title": "More clients, less hassle",
+        "desc": "Leave promotion to us. You focus on what you love."
+      },
+      {
+        "title": "Smart agenda",
+        "desc": "Manage appointments, availability and travel from one app."
+      },
+      {
+        "title": "Automatic payments",
+        "desc": "Receive payments directly to your account. No bad debts."
+      },
+      {
+        "title": "Verified professional profile",
+        "desc": "Showcase your work with photos, services and custom prices."
+      },
+      {
+        "title": "Growth & tools",
+        "desc": "Reviews, analytics and tools to improve every day."
+      },
+      {
+        "title": "Dedicated support",
+        "desc": "A team entirely dedicated to professionals, always by your side."
+      },
+      {
+        "title": "Transparent commissions",
+        "desc": "No surprises: clear, always-visible conditions."
+      },
+      {
+        "title": "Work whenever you want",
+        "desc": "Manage your availability in total freedom, no constraints."
+      }
     ],
     "onboarding": {
       "kicker": "Onboarding",
       "title": "Get started in 4 steps",
       "steps": [
-        { "title": "Sign up", "desc": "Download the GlamPro app and create your account." },
-        { "title": "Verify profile", "desc": "Upload documents, certifications and portfolio." },
-        { "title": "Activate availability", "desc": "Set hours, zones and services offered." },
-        { "title": "Receive bookings", "desc": "Start working with new clients, right away." }
+        {
+          "title": "Sign up",
+          "desc": "Download the GlamPro app and create your account."
+        },
+        {
+          "title": "Verify profile",
+          "desc": "Upload documents, certifications and portfolio."
+        },
+        {
+          "title": "Activate availability",
+          "desc": "Set hours, zones and services offered."
+        },
+        {
+          "title": "Receive bookings",
+          "desc": "Start working with new clients, right away."
+        }
       ]
     },
     "ecosystem": "Not just a platform. An ecosystem for beauty professionals.",
@@ -128,9 +291,27 @@
       "kicker": "Partner Services",
       "title": "Everything you need to start your business.",
       "items": [
-        { "name": "Fiscozen", "desc": "Help with VAT number registration and tax management.", "cta": "Get started", "url": "https://www.fiscozen.it/promo/partner/", "image": "/images/fiscozen.jpg" },
-        { "name": "Lokky", "desc": "Insurance for your company and professional activity.", "cta": "Get insured", "url": "https://www.lokky.it/glamro/", "image" : "/images/lokky.png" },
-        { "name": "Finom", "desc": "Company account setup and business banking.", "cta": "Open account", "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH", "image": "/images/finom.jpeg" }
+        {
+          "name": "Fiscozen",
+          "desc": "Help with VAT number registration and tax management.",
+          "cta": "Get started",
+          "url": "https://www.fiscozen.it/promo/partner/",
+          "image": "/images/fiscozen.jpg"
+        },
+        {
+          "name": "Lokky",
+          "desc": "Insurance for your company and professional activity.",
+          "cta": "Get insured",
+          "url": "https://www.lokky.it/glamro/",
+          "image": "/images/lokky.png"
+        },
+        {
+          "name": "Finom",
+          "desc": "Company account setup and business banking.",
+          "cta": "Open account",
+          "url": "https://app.finom.co/en/signup?fnm_view=referral&fnm_refid=ADro7lLH",
+          "image": "/images/finom.jpeg"
+        }
       ]
     },
     "ctaTitle": "Become one of the first GlamPros",
@@ -150,9 +331,18 @@
       "title": "More than a platform. A growth ecosystem.",
       "body": "With Glamro, professionals get:",
       "highlights": [
-        { "title": "More earnings", "desc": "New clients, every day." },
-        { "title": "More visibility", "desc": "Build your personal brand." },
-        { "title": "More freedom", "desc": "Work how, where and when you want." }
+        {
+          "title": "More earnings",
+          "desc": "New clients, every day."
+        },
+        {
+          "title": "More visibility",
+          "desc": "Build your personal brand."
+        },
+        {
+          "title": "More freedom",
+          "desc": "Work how, where and when you want."
+        }
       ],
       "body2": "From events to hotels, all the way to new training and growth opportunities: Glamro doesn't just offer services, it creates possibilities.",
       "closing": ""
@@ -160,11 +350,26 @@
     "values": {
       "title": "Our values",
       "items": [
-        { "title": "Quality", "desc": "Verified professionals." },
-        { "title": "Trust", "desc": "Transparency and secure payments." },
-        { "title": "Simplicity", "desc": "Convenience for clients, intuitive experience." },
-        { "title": "Innovation", "desc": "Technology at the service of people." },
-        { "title": "Growth", "desc": "For clients, professionals and the entire industry." }
+        {
+          "title": "Quality",
+          "desc": "Verified professionals."
+        },
+        {
+          "title": "Trust",
+          "desc": "Transparency and secure payments."
+        },
+        {
+          "title": "Simplicity",
+          "desc": "Convenience for clients, intuitive experience."
+        },
+        {
+          "title": "Innovation",
+          "desc": "Technology at the service of people."
+        },
+        {
+          "title": "Growth",
+          "desc": "For clients, professionals and the entire industry."
+        }
       ]
     },
     "outro": {
@@ -176,18 +381,54 @@
     "kicker": "FAQ",
     "title": "Frequently asked questions",
     "items": [
-      { "q": "What is Glamro?", "a": "Glamro is Italy's first beauty delivery: a platform that lets you book verified beauty professionals — hairdressers, barbers, estheticians, make-up artists and massage therapists — right where you want, in just a few taps." },
-      { "q": "In which cities will it be available?", "a": "Available across Italy from launch, with progressive expansion of the professionals' network." },
-      { "q": "What services can I book?", "a": "Hair, barber, beauty, make-up, massages and services for events and ceremonies, at home or in the location of your choice." },
-      { "q": "How are professionals selected?", "a": "Professionals are verified through onboarding, documentation and profile review, also supported by community reviews." },
-      { "q": "I'm a professional, how can I join?", "a": "You can apply via the GlamPro app, complete your professional profile and submit the required documentation to access the platform." },
-      { "q": "How do payments work?", "a": "Secure digital payments directly in-app, with a simple, transparent system for clients and professionals." },
-      { "q": "Can I choose the professional?", "a": "Yes, you can select the professional based on reviews, availability, distance and price." },
-      { "q": "Can I book for hotels, events or special occasions?", "a": "Yes, Glamro is built to bring beauty services wherever you need them, including events and special locations." },
-      { "q": "Do professionals travel to me?", "a": "Yes, the professional comes to the location you indicate." },
-      { "q": "How can I become one of the first GlamPros?", "a": "Sign up via the app and request priority access to the platform." },
-      { "q": "Can I book on weekends or extended hours?", "a": "Yes, availability depends on the professionals on the platform." },
-      { "q": "Are prices visible before booking?", "a": "Yes, prices and services are transparent before confirmation." }
+      {
+        "q": "What is Glamro?",
+        "a": "Glamro is Italy's first beauty delivery: a platform that lets you book verified beauty professionals — hairdressers, barbers, estheticians, make-up artists and massage therapists — right where you want, in just a few taps."
+      },
+      {
+        "q": "In which cities will it be available?",
+        "a": "Available across Italy from launch, with progressive expansion of the professionals' network."
+      },
+      {
+        "q": "What services can I book?",
+        "a": "Hair, barber, beauty, make-up, massages and services for events and ceremonies, at home or in the location of your choice."
+      },
+      {
+        "q": "How are professionals selected?",
+        "a": "Professionals are verified through onboarding, documentation and profile review, also supported by community reviews."
+      },
+      {
+        "q": "I'm a professional, how can I join?",
+        "a": "You can apply via the GlamPro app, complete your professional profile and submit the required documentation to access the platform."
+      },
+      {
+        "q": "How do payments work?",
+        "a": "Secure digital payments directly in-app, with a simple, transparent system for clients and professionals."
+      },
+      {
+        "q": "Can I choose the professional?",
+        "a": "Yes, you can select the professional based on reviews, availability, distance and price."
+      },
+      {
+        "q": "Can I book for hotels, events or special occasions?",
+        "a": "Yes, Glamro is built to bring beauty services wherever you need them, including events and special locations."
+      },
+      {
+        "q": "Do professionals travel to me?",
+        "a": "Yes, the professional comes to the location you indicate."
+      },
+      {
+        "q": "How can I become one of the first GlamPros?",
+        "a": "Sign up via the app and request priority access to the platform."
+      },
+      {
+        "q": "Can I book on weekends or extended hours?",
+        "a": "Yes, availability depends on the professionals on the platform."
+      },
+      {
+        "q": "Are prices visible before booking?",
+        "a": "Yes, prices and services are transparent before confirmation."
+      }
     ]
   },
   "contact": {
@@ -200,9 +441,21 @@
       "cta": "Book the call"
     },
     "channels": [
-      { "icon": "mail", "label": "General contacts & Partnership", "value": "contact@glamro.it" },
-      { "icon": "megaphone", "label": "Social & Marketing", "value": "marketing@glamro.it" },
-      { "icon": "headset", "label": "Client & professional support", "value": "support@glamro.it" }
+      {
+        "icon": "mail",
+        "label": "General contacts & Partnership",
+        "value": "contact@glamro.it"
+      },
+      {
+        "icon": "megaphone",
+        "label": "Social & Marketing",
+        "value": "marketing@glamro.it"
+      },
+      {
+        "icon": "headset",
+        "label": "Client & professional support",
+        "value": "support@glamro.it"
+      }
     ],
     "form": {
       "name": "Name",
@@ -245,5 +498,232 @@
     "capital": "Share capital",
     "phone": "Phone",
     "website": "Website"
+  },
+  "services": {
+    "parrucchiere": {
+      "name": "Hairdresser at home",
+      "metaTitle": "Hairdresser at home | Book on Glamro",
+      "metaDescription": "Book a hairdresser at home with Glamro: cut, blow-dry, color and treatments at your place. Beauty delivery across Italy.",
+      "kicker": "Services",
+      "h1": "Hairdresser at home",
+      "intro": "With Glamro you book a hairdresser at home in a few taps: cut, blow-dry, color and treatments, right at your place, hotel or office.",
+      "bullets": [
+        "Cut, blow-dry and styling",
+        "Color, balayage and treatments",
+        "Verified and reviewed professionals",
+        "Secure booking and payment in app"
+      ],
+      "seoBody": "Glamro is the first beauty delivery in Italy. Looking for a hairdresser at home near you? Download the app and choose the right professional based on reviews, availability and price.",
+      "faq": [
+        {
+          "q": "How much does a hairdresser at home cost?",
+          "a": "Pricing is transparent and shown in the app before booking: each professional sets their own services and rates."
+        },
+        {
+          "q": "How do I book a hairdresser at home?",
+          "a": "Download the Glamro app, choose the service, select the professional and confirm date, time and place."
+        }
+      ]
+    },
+    "estetista": {
+      "name": "Beautician at home",
+      "metaTitle": "Beautician at home | Book on Glamro",
+      "metaDescription": "Book a beautician at home with Glamro: manicure, pedicure, face and body treatments at your place. Beauty delivery in Italy.",
+      "kicker": "Services",
+      "h1": "Beautician at home",
+      "intro": "With Glamro you book a beautician at home in a few taps: manicure, pedicure, face and body treatments, wherever you want.",
+      "bullets": [
+        "Manicure and pedicure",
+        "Face and body treatments",
+        "Verified and reviewed professionals",
+        "Secure booking and payment in app"
+      ],
+      "seoBody": "Glamro is the first beauty delivery in Italy. Looking for a beautician at home near you? Download the app and choose the right professional based on reviews, availability and price.",
+      "faq": [
+        {
+          "q": "Which treatments can I book?",
+          "a": "Manicure, pedicure, face and body beauty treatments and more, based on the services each professional offers."
+        },
+        {
+          "q": "Does the beautician come to my home?",
+          "a": "Yes, the service is at home: the professional reaches the location you indicate when booking."
+        }
+      ]
+    },
+    "makeup": {
+      "name": "Make-up artist at home",
+      "metaTitle": "Make-up artist at home | Book on Glamro",
+      "metaDescription": "Book a make-up artist at home with Glamro: makeup for events, ceremonies and shoots at your place. Beauty delivery in Italy.",
+      "kicker": "Services",
+      "h1": "Make-up artist at home",
+      "intro": "With Glamro you book a make-up artist at home in a few taps: makeup for events, ceremonies, shoots or any occasion, wherever you want.",
+      "bullets": [
+        "Makeup for events and ceremonies",
+        "Bridal makeup and special occasions",
+        "Verified and reviewed make-up artists",
+        "Secure booking and payment in app"
+      ],
+      "seoBody": "Glamro is the first beauty delivery in Italy. Looking for a make-up artist at home near you? Download the app and choose the right professional for your event.",
+      "faq": [
+        {
+          "q": "Can I book a make-up artist for a wedding?",
+          "a": "Yes, you can book a make-up artist for weddings, ceremonies and events, with at-home service."
+        },
+        {
+          "q": "How do I choose the make-up artist?",
+          "a": "You compare profiles, portfolios, reviews and prices directly in the app before booking."
+        }
+      ]
+    },
+    "massaggiatore": {
+      "name": "Masseur at home",
+      "metaTitle": "Masseur at home | Book on Glamro",
+      "metaDescription": "Book a masseur at home with Glamro: relaxing, sports and wellness massages at your place. Beauty delivery in Italy.",
+      "kicker": "Services",
+      "h1": "Masseur at home",
+      "intro": "With Glamro you book a masseur at home in a few taps: relaxing, sports and wellness massages, right at your home or hotel.",
+      "bullets": [
+        "Relaxing and deep-tissue massages",
+        "Sports and wellness massages",
+        "Verified and reviewed professionals",
+        "Secure booking and payment in app"
+      ],
+      "seoBody": "Glamro is the first beauty delivery in Italy. Looking for a masseur at home near you? Download the app and choose the right professional based on reviews and availability.",
+      "faq": [
+        {
+          "q": "What types of massage can I book?",
+          "a": "Relaxing, deep-tissue, sports and wellness massages, based on the services each professional offers."
+        },
+        {
+          "q": "Does the masseur bring the table?",
+          "a": "Equipment depends on the professional: service details are shown in the in-app profile."
+        }
+      ]
+    },
+    "common": {
+      "advantagesTitle": "Why book with Glamro",
+      "ctaTitle": "Book now with Glamro",
+      "ctaSubtitle": "Download the app and book your at-home beauty service.",
+      "proTitle": "Are you a professional?",
+      "proBody": "Apply on Glamro and reach new clients in your area.",
+      "proCta": "Apply as a professional",
+      "faqTitle": "Frequently asked questions"
+    }
+  },
+  "cityPage": {
+    "kicker": "City",
+    "metaTitle": "Beauty delivery in {{city}} | Glamro",
+    "metaDescription": "At-home beauty services in {{city}}: hairdresser, beautician, make-up artist and masseur. Book on Glamro, beauty delivery in Italy.",
+    "h1": "Beauty delivery in {{city}}",
+    "intro": "Glamro brings at-home beauty services to {{city}}: book verified hairdressers, beauticians, make-up artists and masseurs, directly from the app.",
+    "body": "Looking for a hairdresser at home in {{city}} or a beautician who comes to you? With Glamro you choose the right professional based on reviews, availability and price, in {{city}} and across the {{region}} region.",
+    "servicesTitle": "Services available in {{city}}",
+    "ctaTitle": "Download Glamro in {{city}}",
+    "ctaSubtitle": "Book your at-home beauty service in a few taps.",
+    "proTitle": "Are you a beauty professional in {{city}}?",
+    "proBody": "Apply on Glamro and reach new clients in {{city}}.",
+    "proCta": "Apply as a professional"
+  },
+  "lavoraConNoi": {
+    "metaTitle": "Work with us | Glamro for beauty professionals",
+    "metaDescription": "Become a Glamro professional: hairdressers, beauticians, make-up artists, masseurs, salons and beauty centers. More clients, more bookings.",
+    "kicker": "Work with us",
+    "h1": "Work with Glamro",
+    "subtitle": "More visibility, more clients, more bookings for beauty professionals, salons and beauty centers.",
+    "intro": "Glamro is the first beauty delivery in Italy. We help hairdressers, beauticians, make-up artists, masseurs, salons and beauty centers get found by new clients and grow their business.",
+    "benefits": [
+      {
+        "title": "More clients",
+        "desc": "Reach new clients in your area, without worrying about promotion."
+      },
+      {
+        "title": "More visibility",
+        "desc": "A professional profile with photos, services, prices and reviews."
+      },
+      {
+        "title": "Full calendar",
+        "desc": "Receive bookings and manage your availability freely."
+      },
+      {
+        "title": "Secure payments",
+        "desc": "Get paid directly, in a simple and transparent way."
+      }
+    ],
+    "stepsTitle": "How to get started",
+    "steps": [
+      {
+        "title": "Apply",
+        "desc": "Fill out the application form in a few minutes."
+      },
+      {
+        "title": "Consultation",
+        "desc": "If you want, book a free consultation with the team."
+      },
+      {
+        "title": "Verify profile",
+        "desc": "Upload documents and complete your professional profile."
+      },
+      {
+        "title": "Start working",
+        "desc": "Receive bookings from Glamro clients."
+      }
+    ],
+    "ctaApply": "Apply as a professional",
+    "ctaConsult": "Book a consultation"
+  },
+  "candidatura": {
+    "metaTitle": "Apply as a professional | Glamro",
+    "metaDescription": "Apply as a beauty professional on Glamro: hairdressers, beauticians, make-up artists, masseurs, salons and beauty centers.",
+    "kicker": "Application",
+    "h1": "Apply as a professional",
+    "subtitle": "Fill out the form: we'll get back to you to complete your Glamro onboarding.",
+    "form": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "phone": "Phone",
+      "email": "Email",
+      "profession": "Profession",
+      "professionPlaceholder": "Select",
+      "professions": {
+        "parrucchiere": "Hairdresser / Barber",
+        "estetista": "Beautician",
+        "makeup": "Make-up artist",
+        "massaggiatore": "Masseur",
+        "salone": "Salon / Beauty center",
+        "altro": "Other"
+      },
+      "city": "City",
+      "social": "Instagram / TikTok link",
+      "availability": "Available for a discovery consultation?",
+      "availabilityYes": "Yes",
+      "availabilityNo": "No",
+      "documents": "Documents already available (optional)",
+      "documentsPlaceholder": "E.g. VAT number, insurance, certifications...",
+      "submit": "Send application",
+      "success": "Application sent! We'll get back to you soon.",
+      "error": "Something went wrong. Please try again later."
+    },
+    "consultBanner": {
+      "title": "Have questions before applying?",
+      "body": "Book a free consultation with the Glamro team.",
+      "cta": "Book a consultation"
+    }
+  },
+  "consulenza": {
+    "metaTitle": "Book a free consultation | Glamro",
+    "metaDescription": "Got questions about Glamro, documents or in-app upload? Book a free consultation with the Glamro team.",
+    "kicker": "Consultation",
+    "h1": "Book a free consultation",
+    "body": "Got questions about Glamro, documents or in-app upload? Book a free consultation with the team and we'll guide you step by step.",
+    "pointsTitle": "What we can talk about",
+    "points": [
+      "How the app and platform work",
+      "VAT number and tax aspects",
+      "Professional insurance",
+      "Opening a business account",
+      "Document upload and onboarding",
+      "Opportunities for professionals and salons"
+    ],
+    "cta": "Book now"
   }
 }
