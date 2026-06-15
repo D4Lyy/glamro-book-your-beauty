@@ -80,7 +80,7 @@ const Contact = () => {
 
       {/* Webinar / discovery call */}
       <a
-        href="https://calendly.com/contact-glamro/webinar-glamro-scopri-la-piattaforma-e-la-sua-vison"
+        href="https://calendly.com/contact-glamro/supporto-glamro-completa-la-tua-registrazione"
         target="_blank"
         rel="noreferrer"
         className="mt-12 block p-8 md:p-10 rounded-2xl border border-border bg-card hover:border-foreground/40 transition-colors group"
