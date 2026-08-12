@@ -12,9 +12,9 @@ export const AppStoreButtons = ({ className = "", variant = "default", kind = "c
   const { t } = useTranslation();
   const isCompact = variant === "compact";
   const label = kind === "pro" ? t("cta.proApp") : t("cta.clientApp");
-  const appleClientLink = "https://apps.apple.com/us/app/glamro/id6756219312";
+  const appleClientLink = "https://apps.apple.com/app/glamro-clienti/id6756219312";
   const googleClientLink = "https://play.google.com/store/apps/details?id=com.glamro.clientapp";
-  const appleProLink = "https://apps.apple.com/us/app/glamro-pro/id6758321869";
+  const appleProLink = "https://apps.apple.com/app/glamro-pro/id6758321869";
   const googleProLink = "https://play.google.com/store/apps/details?id=com.glamropro.app";
 
   const baseClass =
