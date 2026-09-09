@@ -14,8 +14,6 @@ export default async function handler(req: any, res: any) {
     return res.status(500).json({ message: 'Server not configured' });
   }
 
-  const listId = process.env.BREVO_CANDIDATURA_LIST_ID;
-
   const {
     firstName = '',
     lastName = '',
@@ -53,24 +51,22 @@ export default async function handler(req: any, res: any) {
   });
 
   try {
-    if (listId) {
-      await client.contacts.createContact({
-        email: email,
-        attributes: {
-          NOME: firstName,
-          COGNOME: lastName,
-          ...(formattedPhone && { SMS: formattedPhone }),
-          EMAIL: email,
-          CITY: city,
-          PROFESSIONE: profession,
-          SOCIALS: social,
-          DISPONIBILE_CONSULENZA: isAvailable,
-          DOCUMENTI_DISPONIBILI: documents,
-        },
-        listIds: [listId],
-        updateEnabled: true
-      });
-    }
+    await client.contacts.createContact({
+      email: email,
+      attributes: {
+        NOME: firstName,
+        COGNOME: lastName,
+        ...(formattedPhone && { SMS: formattedPhone }),
+        EMAIL: email,
+        CITY: city,
+        PROFESSIONE: profession,
+        SOCIALS: social,
+        DISPONIBILE_CONSULENZA: isAvailable,
+        DOCUMENTI_DISPONIBILI: documents,
+      },
+      listIds: [34],
+      updateEnabled: true
+    });
 
     return res.status(200).json({ success: true });
   } catch (error: any) {
