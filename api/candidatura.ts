@@ -40,31 +40,26 @@ export default async function handler(req: any, res: any) {
   if (!profession.trim()) return res.status(400).json({ message: "Professione mancante" });
   if (!city.trim() || city.length > 100) return res.status(400).json({ message: "Città non valida" });
 
-  const listId = process.env.BREVO_CANDIDATURA_LIST_ID;
-
   try {
-    // 1. Upsert the contact into the Brevo list.
-    if (listId) {
-      await fetch(`${BREVO_API}/contacts`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json", "api-key": apiKey },
-        body: JSON.stringify({
-          email,
-          updateEnabled: true,
-          listIds: [Number(listId)],
-          attributes: {
-            FIRSTNAME: firstName,
-            LASTNAME: lastName,
-            SMS: phone,
-            PROFESSIONE: profession,
-            CITTA: city,
-            SOCIAL: social,
-            CONSULENZA: availability,
-            DOCUMENTI: documents,
-          },
-        }),
-      });
-    }
+    await fetch(`${BREVO_API}/contacts`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "api-key": apiKey },
+      body: JSON.stringify({
+        email,
+        updateEnabled: true,
+        listIds: [34],
+        attributes: {
+          FIRSTNAME: firstName,
+          LASTNAME: lastName,
+          SMS: phone,
+          PROFESSIONE: profession,
+          CITTA: city,
+          SOCIAL: social,
+          CONSULENZA: availability,
+          DOCUMENTI: documents,
+        },
+      }),
+    });
 
     // 2. Notify the team.
     await fetch(`${BREVO_API}/smtp/email`, {
